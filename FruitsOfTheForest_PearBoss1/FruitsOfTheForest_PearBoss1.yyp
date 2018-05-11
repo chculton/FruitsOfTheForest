@@ -175,6 +175,22 @@
             }
         },
         {
+            "Key": "86fff764-0a87-4b2a-b218-a41cf23d362a",
+            "Value": {
+                "id": "4a4e396c-c502-48c9-acde-b71a90a361f3",
+                "resourcePath": "objects\\obj_EyeBall\\obj_EyeBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "891f1914-cfad-4a28-9e07-76f9743394b4",
+            "Value": {
+                "id": "0a85344d-3f8a-4363-ad04-fdef8742cdeb",
+                "resourcePath": "sprites\\spr_EyeBall\\spr_EyeBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e7d6fc5-daaa-419f-9769-cd16a5637b5e",
             "Value": {
                 "id": "70c218ad-8d5d-46b7-a39e-063100fe066f",
