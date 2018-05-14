@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "36bd9569-9cde-45b2-a7d9-126a3d17a316",
-            "Value": {
-                "id": "654b5621-8d8a-4511-8fad-b50581c16bfe",
-                "resourcePath": "objects\\obj_PearAttack1\\obj_PearAttack1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4037a241-d392-474d-8f4d-4281b012bd41",
             "Value": {
                 "id": "571a791b-2017-4388-b58b-6d2d6a3e84d4",
@@ -147,22 +139,6 @@
             "Value": {
                 "id": "b4f5ff7d-2963-4036-96cf-99f4c9abeb14",
                 "resourcePath": "sprites\\spr_Player\\spr_Player.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "69303977-f38f-4d15-a160-be667b0d21a1",
-            "Value": {
-                "id": "3cb13f4c-3afc-48e0-944f-a9b083adecc9",
-                "resourcePath": "sprites\\spr_background\\spr_background.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6df93db7-7a41-4e00-8db5-26057c9ce7da",
-            "Value": {
-                "id": "e4e43524-2cad-4eaa-978d-b810fe518aa4",
-                "resourcePath": "sprites\\spr_PearAttack1\\spr_PearAttack1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -263,6 +239,14 @@
             }
         },
         {
+            "Key": "cabd2462-ecbf-4558-bca8-be9077c80b89",
+            "Value": {
+                "id": "516dbdb0-c765-4b6f-ad5c-fa360a337b66",
+                "resourcePath": "sprites\\spr_PearAcidSpit\\spr_PearAcidSpit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cb8cd6f8-659b-4535-8fbc-292b40afac3d",
             "Value": {
                 "id": "6b4e7184-e1e7-44a0-a240-5e11f89ae768",
@@ -271,19 +255,19 @@
             }
         },
         {
-            "Key": "cc4d1f1b-5446-4b65-999f-52ad20365144",
-            "Value": {
-                "id": "db5d9192-c37a-45a7-b3ea-e72660075994",
-                "resourcePath": "objects\\obj_pearMouth\\obj_pearMouth.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "68cdb919-7f1a-4f71-8a40-9e4ad88313b8",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d913e985-9bf8-4577-b0bc-bb7a3f2e80f3",
+            "Value": {
+                "id": "5c4e1508-7d52-465d-8140-ae989985cbef",
+                "resourcePath": "sprites\\spr_SummoningRoar\\spr_SummoningRoar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,27 +287,19 @@
             }
         },
         {
-            "Key": "f1775a6a-4b67-4a67-a4a9-36e70900896c",
-            "Value": {
-                "id": "f77eb912-f4df-4810-b340-03f3526ee4a1",
-                "resourcePath": "sprites\\spr_PearMouth\\spr_PearMouth.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f275c430-dc83-4e16-a91b-0e8bd9442d27",
-            "Value": {
-                "id": "2f0e3f39-2d19-4f52-81f0-c4ece498fa1a",
-                "resourcePath": "objects\\obj_Player\\obj_Player.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f2c8fd7e-f668-4434-a226-ab75a5e79e0e",
             "Value": {
                 "id": "ffb889ea-94c5-4320-b8b0-5244e63d7c5f",
                 "resourcePath": "objects\\obj_controlObject\\obj_controlObject.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fbfe4a2b-05fd-4770-89d4-61bbb57ccbd5",
+            "Value": {
+                "id": "b89468cb-942b-4565-8d10-91752f1c65fa",
+                "resourcePath": "sprites\\spr_PearVineLash\\spr_PearVineLash.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
