@@ -37,7 +37,7 @@ if (timer <= 0)
   
   if (previous_Attack = 2)
   {
-	  timer = 70;
+	  timer = 65;
   }
   
   if (previous_Attack = 3)
