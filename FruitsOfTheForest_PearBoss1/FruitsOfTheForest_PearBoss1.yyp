@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "01e0917d-e9cb-41be-8d3b-6b26c6473e20",
+            "Value": {
+                "id": "d6b78cd5-d1bc-4e2d-ad0f-765bb263e724",
+                "resourcePath": "sprites\\spr_PearVineLashVines\\spr_PearVineLashVines.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0553b617-4746-46ff-a63a-ee43242db676",
             "Value": {
                 "id": "ae798a54-b2e9-410a-ae59-003d993cdf05",
                 "resourcePath": "views\\0553b617-4746-46ff-a63a-ee43242db676.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "06703f3b-8114-44ab-aabe-7d8c2d33f16a",
+            "Value": {
+                "id": "13921120-2b00-4ce5-b1aa-d2fcb5cbe68e",
+                "resourcePath": "objects\\obj_SummoningRoarFallingRock\\obj_SummoningRoarFallingRock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -47,11 +63,35 @@
             }
         },
         {
+            "Key": "142f5f99-35e9-4cb1-8cde-095b8b54eb73",
+            "Value": {
+                "id": "4246441c-3238-436f-abbd-b406a7e16ab4",
+                "resourcePath": "objects\\obj_PearVineLashVines\\obj_PearVineLashVines.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1559a75a-d712-4148-9645-2e61522c07f6",
+            "Value": {
+                "id": "3caf3062-ae2a-43bd-ac1f-7926ad489593",
+                "resourcePath": "objects\\obj_SummoningRoarIndicator\\obj_SummoningRoarIndicator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b92c390-1daf-469d-b0fb-82a069f6d38c",
             "Value": {
                 "id": "a71eccfa-76fd-46b0-860f-f2c2b49cf739",
                 "resourcePath": "objects\\obj_PearBoss\\obj_PearBoss.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "215b8240-16c2-4cf6-b792-5564ad7ee3de",
+            "Value": {
+                "id": "87b7fb31-03e0-4457-98f3-795b753a22e4",
+                "resourcePath": "sprites\\spr_SummoningRoarFallingIndicator\\spr_SummoningRoarFallingIndicator.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -119,14 +159,6 @@
             }
         },
         {
-            "Key": "4b890af9-b5e7-4afb-95b6-5a08e556a2de",
-            "Value": {
-                "id": "08412bdf-66f1-4511-ac8c-5361d9c64b4b",
-                "resourcePath": "rooms\\room_PearBoss\\room_PearBoss.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "5411f61c-6690-41bf-a116-55942f51f063",
             "Value": {
                 "id": "1ca09375-c765-4e43-bb3e-cd1160cf3746",
@@ -164,6 +196,14 @@
                 "id": "533bd0f9-32b4-47cb-865b-50451356d9dc",
                 "resourcePath": "views\\7439cec7-992e-47c6-a3c5-952118c4ab54.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "752fd9b5-e335-4c39-bd62-2352f44e2837",
+            "Value": {
+                "id": "b7b3011c-ac67-4ca6-b2df-5d9494427232",
+                "resourcePath": "sprites\\spr_SummoningRoarRock2\\spr_SummoningRoarRock2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -271,6 +311,14 @@
             }
         },
         {
+            "Key": "b9323d91-37ad-4b33-a6f2-fc69a0b73475",
+            "Value": {
+                "id": "49700819-1b70-4847-9a03-c0f615fae117",
+                "resourcePath": "sprites\\spr_SummoningRoarRock1\\spr_SummoningRoarRock1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cabd2462-ecbf-4558-bca8-be9077c80b89",
             "Value": {
                 "id": "516dbdb0-c765-4b6f-ad5c-fa360a337b66",
@@ -338,7 +386,7 @@
             "Key": "fbfe4a2b-05fd-4770-89d4-61bbb57ccbd5",
             "Value": {
                 "id": "b89468cb-942b-4565-8d10-91752f1c65fa",
-                "resourcePath": "sprites\\spr_PearVineLash\\spr_PearVineLash.yy",
+                "resourcePath": "sprites\\spr_PearVineLashBody\\spr_PearVineLashBody.yy",
                 "resourceType": "GMSprite"
             }
         }
