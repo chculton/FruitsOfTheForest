@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "261c5b74-d59e-4650-995f-4bb6aef14996",
+            "Value": {
+                "id": "b0f02338-ea51-468e-9810-b31e0cbba189",
+                "resourcePath": "sprites\\spr_PearFirstPhaseDeath\\spr_PearFirstPhaseDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "268b729b-4020-4611-b307-e860fda8aab5",
             "Value": {
                 "id": "58930a52-a747-4eea-a56a-302baba4714d",

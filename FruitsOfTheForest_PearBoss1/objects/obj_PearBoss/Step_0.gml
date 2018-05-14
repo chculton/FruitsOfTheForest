@@ -50,3 +50,17 @@ else
 {
   timer -= 1;
 }
+
+
+if (pear_health <= 0)
+{
+	sprite_index = spr_PearFirstPhaseDeath;
+	instance_destroy(obj_EyeBall);
+}
+
+//TEMPORARY LIFE LOSS
+
+if (keyboard_check(LooseLife))
+{
+	pear_health -= 1;
+}
