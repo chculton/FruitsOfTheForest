@@ -3,13 +3,11 @@ phy_fixed_rotation = true;
 
 if keyboard_check(right)
 {
-	//physics_apply_force(x, y, spd, 0);
 	phy_position_x += spd;
 }
 
 if keyboard_check(left)
 {
-	//physics_apply_force(x, y, -spd, 0);
 	phy_position_x -= spd;
 }
 

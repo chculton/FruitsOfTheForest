@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "8f7d2711-a11c-47ed-8ddc-f1f27abb85ee",
+            "Value": {
+                "id": "e6ba6a5d-bc49-48b3-ba97-5a769e29dba1",
+                "resourcePath": "sprites\\spr_PearAcidSpitBubble\\spr_PearAcidSpitBubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8fb813fe-098b-4a63-8f58-bc1f202f0583",
             "Value": {
                 "id": "5642386b-4241-4fb4-be7b-8b897bc17579",
@@ -231,11 +239,27 @@
             }
         },
         {
+            "Key": "a4829990-ff6e-4471-94fa-19976969f5db",
+            "Value": {
+                "id": "b5ac1aa0-c8a5-4e13-81d1-14e44a47d140",
+                "resourcePath": "objects\\obj_PearAcidSpitProjectile\\obj_PearAcidSpitProjectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a7b3e190-4759-4572-bce0-0ed05ff3e28f",
             "Value": {
                 "id": "6e41f47f-6757-4793-a193-7158a5b7d17e",
                 "resourcePath": "views\\a7b3e190-4759-4572-bce0-0ed05ff3e28f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad092db9-ad62-474b-a872-fbcf2c2bd1ba",
+            "Value": {
+                "id": "427ca02b-b908-48a5-ad42-02c0be47547d",
+                "resourcePath": "objects\\obj_PearAcidSpitBubble\\obj_PearAcidSpitBubble.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -263,10 +287,18 @@
             }
         },
         {
+            "Key": "ccf1b257-539c-45e9-aed7-d32c698aadf1",
+            "Value": {
+                "id": "dcd3c0fb-09a2-4495-a0bf-b85c72864a29",
+                "resourcePath": "sprites\\spr_PearAcidSpitProjectile\\spr_PearAcidSpitProjectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d913e985-9bf8-4577-b0bc-bb7a3f2e80f3",
             "Value": {
                 "id": "5c4e1508-7d52-465d-8140-ae989985cbef",
-                "resourcePath": "sprites\\spr_SummoningRoar\\spr_SummoningRoar.yy",
+                "resourcePath": "sprites\\spr_PearSummoningRoar\\spr_PearSummoningRoar.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,7 +2,7 @@
     "id": "d913e985-9bf8-4577-b0bc-bb7a3f2e80f3",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_SummoningRoar",
+    "name": "spr_PearSummoningRoar",
     "For3D": false,
     "HTile": false,
     "VTile": false,
