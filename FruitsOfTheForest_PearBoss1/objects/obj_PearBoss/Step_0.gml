@@ -74,7 +74,7 @@ if (FirstPhase == true)
 		instance_destroy(obj_EyeBall);
 		instance_destroy(obj_PearAcidSpitBubble);  //Destroys Previous Attack
 		instance_destroy(obj_PearVineLashVines); //Destroys Previous Attack
-	
+		instance_destroy(obj_SummoningRoarIndicator); //Destroys Previous Attack
 	}
 	//TEMPORARY (LIFE LOSS)
 

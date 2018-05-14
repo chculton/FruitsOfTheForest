@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "17bd2b51-5e6f-4510-a7f5-51660f31645d",
+            "Value": {
+                "id": "7130cebd-2c48-4aeb-8efe-bd1dab00985c",
+                "resourcePath": "objects\\obj_SummoningRoarFallingRock2\\obj_SummoningRoarFallingRock2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b92c390-1daf-469d-b0fb-82a069f6d38c",
             "Value": {
                 "id": "a71eccfa-76fd-46b0-860f-f2c2b49cf739",

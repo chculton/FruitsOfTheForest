@@ -1,6 +1,16 @@
 if (timer <= 0) 
 {
-  instance_create_layer(x, y, "Instances_1", obj_SummoningRoarFallingRock);
+  summoning_rock = irandom_range(1,2);
+  
+  if (summoning_rock == 1)
+  {
+	   instance_create_layer(x, y, "Instances_1", obj_SummoningRoarFallingRock);
+  }
+  if (summoning_rock == 2)
+  {
+	  instance_create_layer(x, y, "Instances_1", obj_SummoningRoarFallingRock2);
+  }
+  
   x = obj_PhysicsPlayer.x;
   timer = 37;
 } 
@@ -15,4 +25,3 @@ else
   timer -= 1;
 }
 
-//
