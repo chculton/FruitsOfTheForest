@@ -88,11 +88,9 @@ if (FirstPhase == true)
 if ((SecondPhase == true) && (keyboard_check(SecondPhaseKey)) && SecondPhaseBossSpawn = false)
 {
 	visible = false;
-	x = 3000;
-	y = 3000;
-	instance_create_layer(obj_PhysicsPlayer.x, 0, "Instances_1", obj_PearBossPhase2);
+	instance_create_layer(obj_PearBoss.x, obj_PearBoss.y, "Instances", obj_PearBossPhase2);
 	SecondPhaseBossSpawn = true;
-	
+	instance_destroy();
 	//sprite_index = spr_PearSecondPhase;
 }
 
