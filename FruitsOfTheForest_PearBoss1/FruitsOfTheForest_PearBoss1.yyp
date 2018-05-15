@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01c2a263-c787-4fba-8fa3-d67bac18f74d",
+            "Value": {
+                "id": "f3fcaf2a-4b55-43cc-ba9e-34e54ccc699d",
+                "resourcePath": "sprites\\spr_CaveCeiling\\spr_CaveCeiling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "01e0917d-e9cb-41be-8d3b-6b26c6473e20",
             "Value": {
                 "id": "d6b78cd5-d1bc-4e2d-ad0f-765bb263e724",
@@ -171,6 +179,22 @@
             "Value": {
                 "id": "571a791b-2017-4388-b58b-6d2d6a3e84d4",
                 "resourcePath": "sprites\\spr_Platform\\spr_Platform.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "40b6d19c-b4c9-4cf1-983c-a6e3460746b3",
+            "Value": {
+                "id": "0f6ad2f7-c211-41a6-bf37-0fcf15709a2f",
+                "resourcePath": "objects\\obj_CaveRoof\\obj_CaveRoof.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "40cfca92-a20d-4c70-8029-c78a16c51e01",
+            "Value": {
+                "id": "a13ee024-b784-436a-9af9-bf192d594851",
+                "resourcePath": "sprites\\spr_TopEdgePlatform\\spr_TopEdgePlatform.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -351,14 +375,6 @@
             }
         },
         {
-            "Key": "a2763065-e579-42ff-a0aa-8e37a2c9f888",
-            "Value": {
-                "id": "3c32fb18-d5da-4638-a5fa-4cf5748e3ab2",
-                "resourcePath": "objects\\obj_Platform\\obj_Platform.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a4829990-ff6e-4471-94fa-19976969f5db",
             "Value": {
                 "id": "b5ac1aa0-c8a5-4e13-81d1-14e44a47d140",
@@ -467,6 +483,14 @@
             "Value": {
                 "id": "559bb221-9ee2-4cf8-8f71-23b413e02480",
                 "resourcePath": "objects\\obj_PearCrownRight\\obj_PearCrownRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e9be2657-7b91-4240-a0f8-ffca4ae6d4d6",
+            "Value": {
+                "id": "49ea81ce-ef3e-45f4-b475-25aa0f2af05f",
+                "resourcePath": "objects\\obj_CaveFloor\\obj_CaveFloor.yy",
                 "resourceType": "GMObject"
             }
         },
