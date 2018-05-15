@@ -10,5 +10,6 @@ jump = vk_space;
 
 jump_cooldown = 0;
 
+Player1Health = 5;
 
 physics_world_gravity(0, 100);
