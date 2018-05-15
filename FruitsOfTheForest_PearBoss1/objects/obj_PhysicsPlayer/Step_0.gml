@@ -13,11 +13,11 @@ if (keyboard_check(left) && (jumping = false))
 
 if (keyboard_check(left) && (jumping = true))
 {
-	phy_position_x -= spd * 0.1;
+	phy_position_x -= spd * 0.8;
 }
 if (keyboard_check(right) && (jumping = true))
 {
-	phy_position_x += spd * 0.1;
+	phy_position_x += spd * 0.8;
 }
 
 
