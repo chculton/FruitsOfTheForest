@@ -8,5 +8,7 @@ right = ord("D");
 left = ord("A");
 jump = vk_space;
 
+jump_cooldown = 0;
 
-physics_world_gravity(0, 150);
+
+physics_world_gravity(0, 100);

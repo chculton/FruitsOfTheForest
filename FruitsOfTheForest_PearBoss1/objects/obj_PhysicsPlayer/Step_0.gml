@@ -22,13 +22,19 @@ if (keyboard_check(right) && (jumping = true))
 
 
 
-if (keyboard_check(jump) && (jumping = false))
+if (keyboard_check_pressed(jump) && (jump_cooldown < 2))
 {
 	physics_apply_impulse(x, y, 0, -jmp);
+	jump_cooldown++;
 	jumping = true;
 }
 
-if (place_meeting(x, y + 7, obj_Platform))
+/*if (place_meeting(x, y + 7, obj_Platform))
 {
 	jumping = false;
+}*/
+
+if (place_meeting(x, y + 7, obj_Platform))
+{
+	jump_cooldown--;
 }
