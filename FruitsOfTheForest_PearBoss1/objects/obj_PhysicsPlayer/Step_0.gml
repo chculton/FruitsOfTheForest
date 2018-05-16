@@ -34,7 +34,7 @@ if (keyboard_check_pressed(jump) && (jump_cooldown < 1))
 	jumping = false;
 }*/
 
-if ((place_meeting(x, y + 7, obj_CaveFloor)) && (jump_cooldown > 0))
+if ((place_meeting(x, y + 7, obj_Platform)) && (jump_cooldown > 0))
 {
 	jump_cooldown--;
 }
