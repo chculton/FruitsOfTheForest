@@ -1,1 +1,0 @@
-Player1Health = Player1Health - 1;
