@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "22654078-1f2a-48b1-9a8e-5e35c2b08917",
+            "Value": {
+                "id": "82d5b7aa-30ef-4189-84be-478dba946d42",
+                "resourcePath": "objects\\obj_Blender\\obj_Blender.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "261c5b74-d59e-4650-995f-4bb6aef14996",
             "Value": {
                 "id": "b0f02338-ea51-468e-9810-b31e0cbba189",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "5644152d-c19b-4b44-903e-50ba305275b4",
+            "Value": {
+                "id": "5c3d9095-5dbf-44a4-a6db-db7eba96b6c5",
+                "resourcePath": "objects\\obj_Rope\\obj_Rope.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57b64e33-2db8-4b07-8948-527283299eca",
             "Value": {
                 "id": "1c6a3dc0-9b10-4718-aa16-64e1d3b9fc92",
@@ -283,6 +299,14 @@
             "Value": {
                 "id": "d8f416e7-54c0-45b4-915a-6a29c08affe8",
                 "resourcePath": "sprites\\spr_PearSecondPhase\\spr_PearSecondPhase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "79034c52-b35d-4ad8-86a1-0b14fd391692",
+            "Value": {
+                "id": "894481cf-88e1-4cc7-927d-02af90771286",
+                "resourcePath": "sprites\\sprRope\\sprRope.yy",
                 "resourceType": "GMSprite"
             }
         },
