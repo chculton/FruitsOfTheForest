@@ -4,8 +4,8 @@
     "mvc": "1.1",
     "name": "8fc556ad-8246-4078-8131-7581a0b462b5",
     "children": [
-        "28b6e6f0-322e-4e11-9a8a-63ebe93e905a",
-        "c836b883-734f-433c-9646-fdd4b04742af"
+        "74585845-0f8a-4af1-aab3-a51ff3019a4f",
+        "28cd20db-89b6-4f4d-94ea-e64aebe78c84"
     ],
     "filterType": "GMObject",
     "folderName": "group_Enimies",

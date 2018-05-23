@@ -167,11 +167,27 @@
             }
         },
         {
+            "Key": "2799853a-d613-42ed-bf2e-48af4c05be90",
+            "Value": {
+                "id": "e7034abe-b689-4578-a2a2-caade577a02a",
+                "resourcePath": "sprites\\spr_GrapeAttacking\\spr_GrapeAttacking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28b6e6f0-322e-4e11-9a8a-63ebe93e905a",
             "Value": {
                 "id": "a1208417-5aa1-4458-b87b-cb98a7dc8d68",
                 "resourcePath": "objects\\obj_BananaEnemy\\obj_BananaEnemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "28cd20db-89b6-4f4d-94ea-e64aebe78c84",
+            "Value": {
+                "id": "a549140a-2427-45cc-9be7-9ac2e7c0ad29",
+                "resourcePath": "views\\28cd20db-89b6-4f4d-94ea-e64aebe78c84.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -204,6 +220,14 @@
                 "id": "2698a4d7-17af-4f4b-91b2-562c2a9b2a6c",
                 "resourcePath": "objects\\obj_PearRootTwo\\obj_PearRootTwo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "34ab42f6-1ddf-434e-8bb8-9339e6348f1b",
+            "Value": {
+                "id": "1648d466-b55c-4d2d-bd48-cc338d0746e0",
+                "resourcePath": "sprites\\spr_GrapeAlert\\spr_GrapeAlert.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +319,14 @@
             }
         },
         {
+            "Key": "547e39f7-7792-468b-b5fb-7ca32cac4e6b",
+            "Value": {
+                "id": "e52e1def-b08c-4089-bd76-4af52899b979",
+                "resourcePath": "objects\\obj_GrapeBullet\\obj_GrapeBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57b64e33-2db8-4b07-8948-527283299eca",
             "Value": {
                 "id": "1c6a3dc0-9b10-4718-aa16-64e1d3b9fc92",
@@ -371,6 +403,14 @@
             "Value": {
                 "id": "533bd0f9-32b4-47cb-865b-50451356d9dc",
                 "resourcePath": "views\\7439cec7-992e-47c6-a3c5-952118c4ab54.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74585845-0f8a-4af1-aab3-a51ff3019a4f",
+            "Value": {
+                "id": "d80dbd5e-73b2-4960-97bc-6616f557c0e8",
+                "resourcePath": "views\\74585845-0f8a-4af1-aab3-a51ff3019a4f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -500,6 +540,14 @@
                 "id": "d9e76777-32bf-483c-b040-818f5be9e4b3",
                 "resourcePath": "rooms\\rm_PearKingTest\\rm_PearKingTest.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9f028eb7-2c3f-4e34-9451-12745ebbe10a",
+            "Value": {
+                "id": "8a8d2c0b-f935-4fcf-9358-4b92b6dee745",
+                "resourcePath": "sprites\\spr_GrapeBullet\\spr_GrapeBullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -764,6 +812,14 @@
                 "id": "94b86a50-7639-4e74-9148-a0774ab06778",
                 "resourcePath": "rooms\\rm_StarFruitEnemy\\rm_StarFruitEnemy.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f8512b1b-8842-4520-afec-524340dfdc26",
+            "Value": {
+                "id": "717a9de5-7d27-45be-900f-bf826a1f587c",
+                "resourcePath": "sprites\\spr_GrapeDeath\\spr_GrapeDeath.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

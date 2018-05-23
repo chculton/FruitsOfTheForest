@@ -39,6 +39,11 @@ if ((place_meeting(x, y + 7, obj_Platform)) && (jump_cooldown > 0))
 	jump_cooldown--;
 }
 
+if ((place_meeting(x, y + 7, obj_LargePlatform)) && (jump_cooldown > 0))
+{
+	jump_cooldown--;
+}
+
 if (Player1Health <= 0)
 {
 	instance_destroy();
