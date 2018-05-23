@@ -31,10 +31,26 @@
     },
     "resources": [
         {
+            "Key": "01003bd2-228e-4b2e-bc3d-da8f0f7f3322",
+            "Value": {
+                "id": "0595dfd6-2823-4255-88c7-54e80aac66c1",
+                "resourcePath": "sprites\\spr_MangoBounce\\spr_MangoBounce.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "01e0917d-e9cb-41be-8d3b-6b26c6473e20",
             "Value": {
                 "id": "d6b78cd5-d1bc-4e2d-ad0f-765bb263e724",
                 "resourcePath": "sprites\\spr_PearVineLashVines\\spr_PearVineLashVines.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "03f181a5-3d1c-4fd0-b6e7-975e7c305c07",
+            "Value": {
+                "id": "81cb337e-26f7-439f-a221-6a5cee885e84",
+                "resourcePath": "sprites\\spr_Mango\\spr_Mango.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -68,6 +84,14 @@
                 "id": "b3fddf10-89e1-410a-991f-63de477ddfb2",
                 "resourcePath": "views\\0c5cfc42-84ab-4b81-a41c-cb695d594fd3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "12d77373-07fa-456f-b111-1ce4de06d524",
+            "Value": {
+                "id": "3bfe211a-4c7a-4c47-95b3-0affe75d5d6e",
+                "resourcePath": "sprites\\spr_StarFruitBouncing\\spr_StarFruitBouncing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -247,10 +271,26 @@
             }
         },
         {
+            "Key": "3d877e9c-2670-4dcd-8607-6bae8567cf61",
+            "Value": {
+                "id": "8898b273-c154-4996-9cac-33b1ea2ef4ee",
+                "resourcePath": "views\\3d877e9c-2670-4dcd-8607-6bae8567cf61.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4037a241-d392-474d-8f4d-4281b012bd41",
             "Value": {
                 "id": "571a791b-2017-4388-b58b-6d2d6a3e84d4",
                 "resourcePath": "sprites\\spr_Platform\\spr_Platform.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4049cb88-df02-49d3-99db-8d5ab777bcf2",
+            "Value": {
+                "id": "322460d0-03ac-4331-982f-e53c3ec189f4",
+                "resourcePath": "sprites\\spr_RaspberryCharge\\spr_RaspberryCharge.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -284,6 +324,14 @@
                 "id": "8a41a94d-4b38-46e4-80f0-ae725ad41f59",
                 "resourcePath": "views\\4a90f6c3-828a-4aba-9364-ad59c17d59fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4ab563e1-1e0b-47f9-b5b8-24d2dd06f9f1",
+            "Value": {
+                "id": "88ac9a1f-890f-4774-8287-3a72e74dcb2c",
+                "resourcePath": "sprites\\spr_DurianDeath\\spr_DurianDeath.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -391,6 +439,14 @@
             }
         },
         {
+            "Key": "6ac0fe72-6919-4cfc-918e-1932e233678b",
+            "Value": {
+                "id": "5f70dc07-ebba-457e-ac78-39cd367fef60",
+                "resourcePath": "views\\6ac0fe72-6919-4cfc-918e-1932e233678b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "721c9471-7385-446a-8fae-9f71f0fa5194",
             "Value": {
                 "id": "cc52bf14-ec4c-42a6-994b-a02151ff1fbb",
@@ -447,6 +503,14 @@
             }
         },
         {
+            "Key": "8285d5ea-2a93-42af-99f5-a28a7dfe10d2",
+            "Value": {
+                "id": "e4abd702-3f9f-41db-abff-a31bcce21e94",
+                "resourcePath": "sprites\\spr_DurianAttack\\spr_DurianAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86fff764-0a87-4b2a-b218-a41cf23d362a",
             "Value": {
                 "id": "4a4e396c-c502-48c9-acde-b71a90a361f3",
@@ -467,6 +531,14 @@
             "Value": {
                 "id": "0a85344d-3f8a-4363-ad04-fdef8742cdeb",
                 "resourcePath": "sprites\\spr_EyeBall\\spr_EyeBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a6b9c77-1793-40c9-a646-888c07d22d32",
+            "Value": {
+                "id": "feed554f-c889-4927-9912-98c2d6f1424c",
+                "resourcePath": "sprites\\spr_RaspberryExplosion\\spr_RaspberryExplosion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -516,6 +588,14 @@
                 "id": "c0ed8d83-b324-4962-89e7-6ccf8cfbc5a4",
                 "resourcePath": "rooms\\rm_BananaEnemy\\rm_BananaEnemy.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "992819d3-1c32-4db0-90da-76cad8c6917e",
+            "Value": {
+                "id": "b5f9246f-e840-43b5-9cfb-4c52ddc1d72b",
+                "resourcePath": "sprites\\spr_Raspberry\\spr_Raspberry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -655,6 +735,14 @@
             }
         },
         {
+            "Key": "bc96fc4d-a9be-4aa0-bf3e-5b0f83999d25",
+            "Value": {
+                "id": "cb7eea61-3077-404d-858a-e8303b5c8a77",
+                "resourcePath": "sprites\\spr_GasCloud\\spr_GasCloud.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c836b883-734f-433c-9646-fdd4b04742af",
             "Value": {
                 "id": "1f44c965-5fa9-4576-8373-c4ad6ee88167",
@@ -700,6 +788,14 @@
                 "id": "33157268-55b3-4fb7-8927-1b1edbcd42a6",
                 "resourcePath": "objects\\obj_MenuReturn\\obj_MenuReturn.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ccd6d61a-55b5-4774-86c9-da1ec29b35d0",
+            "Value": {
+                "id": "567b179a-df34-4ff3-a080-ec75f64314ef",
+                "resourcePath": "sprites\\spr_StarFruit\\spr_StarFruit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -767,6 +863,14 @@
             }
         },
         {
+            "Key": "ec81970f-1bea-4d32-9bc6-5df14a4a9f9f",
+            "Value": {
+                "id": "c342b588-548d-44ba-ba93-04703fe8cd9f",
+                "resourcePath": "views\\ec81970f-1bea-4d32-9bc6-5df14a4a9f9f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ee68ff1d-6b5e-4798-aa5c-91f5f6eb6eac",
             "Value": {
                 "id": "e69220bd-89e4-45b0-9a89-b0fbe2e5528a",
@@ -823,6 +927,14 @@
             }
         },
         {
+            "Key": "f8ae3e9b-2a74-4d6f-8ed9-a7002ae39ffe",
+            "Value": {
+                "id": "1d6b82b3-86f8-454e-9351-c3d2e3707926",
+                "resourcePath": "sprites\\spr_Durian\\spr_Durian.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f8ee6d68-dbad-4f5b-81e7-5f01be8111dd",
             "Value": {
                 "id": "869ad2bc-dfd8-47e6-a331-250397b980ec",
@@ -839,10 +951,26 @@
             }
         },
         {
+            "Key": "fb62dd78-f17a-4caa-bd16-d532210ba7e8",
+            "Value": {
+                "id": "d97dd7e9-cce9-4ea1-8d48-396d97581adf",
+                "resourcePath": "views\\fb62dd78-f17a-4caa-bd16-d532210ba7e8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fbfe4a2b-05fd-4770-89d4-61bbb57ccbd5",
             "Value": {
                 "id": "b89468cb-942b-4565-8d10-91752f1c65fa",
                 "resourcePath": "sprites\\spr_PearVineLashBody\\spr_PearVineLashBody.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc5c3d0e-064e-47ef-852a-4980b069a2da",
+            "Value": {
+                "id": "9fc87380-e1a4-4e75-8ba9-ea9f7bc42b41",
+                "resourcePath": "sprites\\spr_RaspberrryRunning\\spr_RaspberrryRunning.yy",
                 "resourceType": "GMSprite"
             }
         }
