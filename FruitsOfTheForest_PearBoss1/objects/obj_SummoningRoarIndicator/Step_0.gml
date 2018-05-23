@@ -4,11 +4,11 @@ if (timer <= 0)
   
   if (summoning_rock == 1)
   {
-	   instance_create_layer(x, y, "Instances_1", obj_SummoningRoarFallingRock);
+	   instance_create_layer(x, y, "PlayerLayer", obj_SummoningRoarFallingRock);
   }
   if (summoning_rock == 2)
   {
-	  instance_create_layer(x, y, "Instances_1", obj_SummoningRoarFallingRock2);
+	  instance_create_layer(x, y, "PlayerLayer", obj_SummoningRoarFallingRock2);
   }
   
   x = obj_PhysicsPlayer.x;

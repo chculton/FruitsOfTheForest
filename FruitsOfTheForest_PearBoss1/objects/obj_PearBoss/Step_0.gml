@@ -14,7 +14,7 @@ if (FirstPhase == true)
 		  image_index = 1;
 		  previous_Attack = 1;
 	  
-		  instance_create_layer(obj_PearBoss.x, obj_PearBoss.y, "Instances_1", obj_PearAcidSpitBubble)
+		  instance_create_layer(obj_PearBoss.x, obj_PearBoss.y, "PlayerLayer", obj_PearAcidSpitBubble)
 	  
 	  }
   
@@ -27,7 +27,7 @@ if (FirstPhase == true)
 		  image_index = 1;
 		  previous_Attack = 2;
 	  
-		  instance_create_layer(obj_PearBoss.x, obj_PearBoss.y, "Instances_1", obj_PearVineLashVines)
+		  instance_create_layer(obj_PearBoss.x, obj_PearBoss.y, "PlayerLayer", obj_PearVineLashVines)
 	  }
   
 	  if (RandomAttackCount == 3 && previous_Attack != 3) //Chooses SummoningRoar Attack
@@ -39,7 +39,7 @@ if (FirstPhase == true)
 		  image_index = 1;
 		  previous_Attack = 3;
 	  
-		  instance_create_layer(obj_PhysicsPlayer.x, obj_PhysicsPlayer.y - 900, "Instances_1", obj_SummoningRoarIndicator);
+		  instance_create_layer(obj_PhysicsPlayer.x, obj_PhysicsPlayer.y - 900, "PlayerLayer", obj_SummoningRoarIndicator);
 	  }
   
 	  if (previous_Attack = 1)
