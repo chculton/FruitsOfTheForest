@@ -12,9 +12,9 @@ with(next_rope){
 	parent = obj_Blender.id;
 }
 
-repeat(10)
+repeat(15)
 {
-	offset_y += 1;
+	offset_y += 0.1;
 	last_rope = next_rope;
 	next_rope = instance_create_layer(x, y+offset_y, "PlayerLayer", obj_Rope);
 	
