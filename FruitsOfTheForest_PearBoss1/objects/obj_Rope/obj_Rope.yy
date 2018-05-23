@@ -4,46 +4,65 @@
     "mvc": "1.0",
     "name": "obj_Rope",
     "eventList": [
-        
+        {
+            "id": "f2d54664-c6af-48f0-a449-e3aec5b639c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5644152d-c19b-4b44-903e-50ba305275b4"
+        },
+        {
+            "id": "2fd8b714-7161-4427-be19-dabadafa17a9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "5644152d-c19b-4b44-903e-50ba305275b4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
-    "physicsAngularDamping": 1,
-    "physicsDensity": 0,
+    "physicsAngularDamping": 0.5,
+    "physicsDensity": 0.5,
     "physicsFriction": 0.2,
     "physicsGroup": 1,
     "physicsKinematic": false,
-    "physicsLinearDamping": 1,
+    "physicsLinearDamping": 0.2,
     "physicsObject": true,
-    "physicsRestitution": 0.1,
+    "physicsRestitution": 0,
     "physicsSensor": false,
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "51ea3ffe-84ae-4a47-af39-06ed41ac981b",
+            "id": "3d4480d8-1441-443c-a4e2-265f5564866f",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 27,
-            "y": 12
+            "y": 39
         },
         {
-            "id": "052efbea-ca6e-46cb-96c1-a12d4626d270",
+            "id": "bd08750d-b2bd-43ac-9e3a-9647e57dd4ec",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 32,
-            "y": 12
+            "y": 39
         },
         {
-            "id": "61654102-640a-40c7-804f-688e477edc18",
+            "id": "9efaa221-0be6-40ba-8e67-d8499614d2c7",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 32,
             "y": 44
         },
         {
-            "id": "b6d1b65f-f90b-4de4-99f8-c17fb7a80656",
+            "id": "bf14c47a-e5d4-4025-bbfd-fbc61532267e",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 27,
