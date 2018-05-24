@@ -4,7 +4,7 @@ attacking = false;
 sensoryRange = 500;
 timer = 15;
 
-projectile_direction = point_direction(x, y, obj_PhysicsPlayer.x, obj_PhysicsPlayer.y);
+projectile_timer = 10;
 
 spd = 30;
 

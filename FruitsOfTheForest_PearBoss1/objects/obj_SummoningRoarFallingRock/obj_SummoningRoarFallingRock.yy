@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_SummoningRoarFallingRock",
     "eventList": [
-        
+        {
+            "id": "30944c80-22c1-4bc0-b3f3-1973c1ee1bef",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "06703f3b-8114-44ab-aabe-7d8c2d33f16a"
+        },
+        {
+            "id": "c06313fa-9c09-472a-bc3d-e80b9549c167",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "06703f3b-8114-44ab-aabe-7d8c2d33f16a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,32 +41,32 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "33f2706e-02b5-497f-9197-0a80f74ebefc",
+            "id": "bbaa46b1-53f4-4d1b-9cad-2ad77d4ba418",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 0,
-            "y": 0
+            "x": 58,
+            "y": 57
         },
         {
-            "id": "4dbc35bc-4b9a-44ea-9337-670f93e892a7",
+            "id": "bfae6e95-2ede-423e-9290-cd75c6d5b719",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 374,
-            "y": 0
+            "x": 311,
+            "y": 57
         },
         {
-            "id": "d8f73a86-7a87-4e21-94ca-7f7cae4b98d3",
+            "id": "601c7602-dd51-4723-946c-5f8c6cf1436e",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 374,
-            "y": 348
+            "x": 311,
+            "y": 290
         },
         {
-            "id": "71b9db6f-06e7-4373-b501-e307ff10c4a1",
+            "id": "bafbfd38-c8d9-4e56-a1e4-12843c40e500",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 0,
-            "y": 348
+            "x": 58,
+            "y": 290
         }
     ],
     "physicsStartAwake": true,
