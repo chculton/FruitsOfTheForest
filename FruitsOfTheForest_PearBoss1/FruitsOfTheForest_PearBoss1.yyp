@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "616d08e3-5037-419e-ab3a-500708a8bd4a",
+            "Value": {
+                "id": "25cd22cd-fde9-4207-b6c2-aabcae23fc03",
+                "resourcePath": "objects\\obj_EnemyRaspberry\\obj_EnemyRaspberry.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "617ddd54-153c-49a6-a24d-af63bc429acf",
             "Value": {
                 "id": "3efa2c12-1674-4cf1-ab18-f2fbe2d96bb0",
@@ -460,6 +468,14 @@
                 "id": "5cef4e5b-94a6-434a-be4a-23ca1a928019",
                 "resourcePath": "objects\\obj_Rope\\obj_Rope.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6598e588-7354-4568-8250-37aa35d24b0c",
+            "Value": {
+                "id": "a2a7afaf-d0ae-46ac-9608-05c83910b185",
+                "resourcePath": "views\\6598e588-7354-4568-8250-37aa35d24b0c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
