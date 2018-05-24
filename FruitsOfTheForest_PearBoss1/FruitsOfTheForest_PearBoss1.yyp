@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "3ccdaa14-a3b3-48d4-b3df-2741ea37a79d",
+            "Value": {
+                "id": "00333047-cef5-401d-8c79-459c212e8020",
+                "resourcePath": "views\\3ccdaa14-a3b3-48d4-b3df-2741ea37a79d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3cde04cf-8c16-453e-9d58-3e466b0fe6d7",
             "Value": {
                 "id": "f41ac379-ec69-4f7e-88d4-50223c334156",
@@ -836,6 +844,14 @@
                 "id": "cb7eea61-3077-404d-858a-e8303b5c8a77",
                 "resourcePath": "sprites\\spr_GasCloud\\spr_GasCloud.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c114efe0-7909-4178-b105-513fed474fac",
+            "Value": {
+                "id": "9ef34984-7c21-4daf-b046-82b6e93e4d39",
+                "resourcePath": "views\\c114efe0-7909-4178-b105-513fed474fac.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
