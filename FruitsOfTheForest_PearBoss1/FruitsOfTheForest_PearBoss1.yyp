@@ -730,7 +730,7 @@
             "Key": "a6dd821d-e678-4f63-a560-6a4d075c876d",
             "Value": {
                 "id": "6014b9b6-8edf-4ad5-98d2-90d3cc062d34",
-                "resourcePath": "sprites\\sprTestPlayer\\sprTestPlayer.yy",
+                "resourcePath": "sprites\\spr_TestPlayer\\spr_TestPlayer.yy",
                 "resourceType": "GMSprite"
             }
         },
