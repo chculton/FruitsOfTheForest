@@ -1,3 +1,10 @@
+
+if (instance_exists(obj_PhysicsPlayer))
+{
+	 view_object[0] = obj_PhysicsPlayer;
+}
+
+
 if (FirstPhase == true)
 {
 	

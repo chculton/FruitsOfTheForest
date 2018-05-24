@@ -4,3 +4,4 @@ if (attacking = false)
 	{
 		inRange = true;
 	}
+}
