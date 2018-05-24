@@ -343,6 +343,22 @@
             }
         },
         {
+            "Key": "438df911-2bc5-4dd8-9d60-4184f422c8f4",
+            "Value": {
+                "id": "57b6fdfc-f9da-4bd8-b3f0-545dbd756951",
+                "resourcePath": "objects\\obj_StarFruit\\obj_StarFruit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "46d0e3ff-cdb2-4831-8a80-de0baaa74026",
+            "Value": {
+                "id": "42bec066-4a83-47bf-9f87-c93dbbe0a4a2",
+                "resourcePath": "views\\46d0e3ff-cdb2-4831-8a80-de0baaa74026.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4a90f6c3-828a-4aba-9364-ad59c17d59fe",
             "Value": {
                 "id": "8a41a94d-4b38-46e4-80f0-ae725ad41f59",

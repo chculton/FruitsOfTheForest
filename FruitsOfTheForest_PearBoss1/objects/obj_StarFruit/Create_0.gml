@@ -1,0 +1,1 @@
+spr_index = spr_StarFruitBouncing;
