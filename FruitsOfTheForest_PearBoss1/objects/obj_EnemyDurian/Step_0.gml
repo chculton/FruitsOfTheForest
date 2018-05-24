@@ -5,3 +5,10 @@ if (attacking = false)
 		inRange = true;
 	}
 }
+
+if (inRange == true && attacking == false)
+{
+	instance_create_layer(x - 100, y, "PlayerLayer", obj_GasCloud);
+	sprite_index = spr_DurianAttack;
+	attacking = true;
+}
