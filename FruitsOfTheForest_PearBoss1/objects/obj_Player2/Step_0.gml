@@ -1,28 +1,43 @@
 phy_rotation = 0;
 phy_fixed_rotation = true;
 
-if (keyboard_check(right) && (jumping = false))
+if (gamepad_button_check_pressed(1, gp_face1))
+{
+	jump = true;
+}
+if (gamepad_axis_value(1, gp_axislh))
+{
+	right = true;	
+}
+if (gamepad_axis_value(1, gp_axislh) <= -0.3)
+{
+	left = true;	
+}
+
+
+if (right == true && (jumping = false))
 {
 	phy_position_x += spd;
 }
 
-if (keyboard_check(left) && (jumping = false))
+if (left == true && (jumping = false))
 {
 	phy_position_x -= spd;
 }
 
-if (keyboard_check(left) && (jumping = true))
+if (left == true && (jumping = true))
 {
 	phy_position_x -= spd * 0.8;
 }
-if (keyboard_check(right) && (jumping = true))
+
+if (right == true && (jumping = true))
 {
 	phy_position_x += spd * 0.8;
 }
 
 
 
-if (keyboard_check_pressed(jump) && (jump_cooldown < 1))
+if (jump == true && (jump_cooldown < 1))
 {
 	physics_apply_impulse(x, y, 0, -jmp);
 	jump_cooldown++;
@@ -48,3 +63,7 @@ if (Player1Health <= 0)
 {
 	instance_destroy();
 }
+
+jump = false;
+left = false;
+right = false;
