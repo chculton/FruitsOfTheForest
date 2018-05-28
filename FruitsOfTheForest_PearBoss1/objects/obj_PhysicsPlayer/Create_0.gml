@@ -6,7 +6,7 @@ jumping = false;
 image_speed = 0.5;
 
 right = gp_axislh;
-left = gp_axislh ;
+left = gp_axislh;
 
 jump_cooldown = 0;
 
