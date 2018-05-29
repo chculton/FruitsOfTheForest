@@ -5,7 +5,8 @@
     "name": "aeea8093-5c02-45dd-8663-4fb7adfb4fa6",
     "children": [
         "35863a3a-1fad-4c23-ae9a-a90d83a1246e",
-        "ab9311ff-b27f-4caf-86ae-7894f9ff6971"
+        "ab9311ff-b27f-4caf-86ae-7894f9ff6971",
+        "d540cdc7-47a8-45d2-b239-3a4f5c3257a3"
     ],
     "filterType": "GMObject",
     "folderName": "group_Player",
