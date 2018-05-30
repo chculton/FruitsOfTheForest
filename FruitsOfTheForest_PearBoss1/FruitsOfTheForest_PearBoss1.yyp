@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "27359c3a-0e61-4484-b779-298c22156e5b",
+            "Value": {
+                "id": "5fb0ddfa-c9aa-418a-99fa-a4fc4ae83585",
+                "resourcePath": "sprites\\spr_Player1Left\\spr_Player1Left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27622ef7-7cb2-4e5a-9acb-d6a9e68a25f1",
             "Value": {
                 "id": "33bfe845-e044-4485-bbf3-76836c274a1f",
@@ -1055,6 +1063,14 @@
             }
         },
         {
+            "Key": "9967dfd2-6306-4865-bfc7-4503d7d5f3ad",
+            "Value": {
+                "id": "80709c14-42d1-4538-a3bd-0af5ee4bfe3e",
+                "resourcePath": "sprites\\spr_Dirt\\spr_Dirt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "997acd6a-fdf9-4e06-9f51-15c63e2416eb",
             "Value": {
                 "id": "4f818e21-19b5-42f2-ab59-2ee58191a7a1",
@@ -1100,6 +1116,14 @@
                 "id": "fa7cb9d8-9330-4741-b68e-e2491f242410",
                 "resourcePath": "sprites\\spr_PearCrownRight\\spr_PearCrownRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a041b920-1a3c-438a-9b74-e21acde38dcc",
+            "Value": {
+                "id": "7972e619-9fcd-44b5-a902-b38daeb42f0b",
+                "resourcePath": "objects\\obj_Dirt\\obj_Dirt.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1162,7 +1186,7 @@
             "Key": "a6dd821d-e678-4f63-a560-6a4d075c876d",
             "Value": {
                 "id": "6014b9b6-8edf-4ad5-98d2-90d3cc062d34",
-                "resourcePath": "sprites\\spr_TestPlayer\\spr_TestPlayer.yy",
+                "resourcePath": "sprites\\spr_Player1Right\\spr_Player1Right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1211,14 +1235,6 @@
             "Value": {
                 "id": "427ca02b-b908-48a5-ad42-02c0be47547d",
                 "resourcePath": "objects\\obj_PearAcidSpitBubble\\obj_PearAcidSpitBubble.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "aeab031c-535a-4614-be0f-871d970d573e",
-            "Value": {
-                "id": "d28f1dd7-aa31-49e3-b478-7553498b2f00",
-                "resourcePath": "objects\\obj_TopRight21\\obj_TopRight21.yy",
                 "resourceType": "GMObject"
             }
         },

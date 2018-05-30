@@ -8,7 +8,8 @@
         "1f2fc187-37a7-4615-ba55-baeb66d9b783",
         "bcae86b9-92ea-48a8-953b-5bf5d78648a6",
         "1847377d-35b5-49a0-8d1d-9f362c57d45c",
-        "1f2f1b90-24c0-4438-a019-b4f6403a1771"
+        "1f2f1b90-24c0-4438-a019-b4f6403a1771",
+        "9967dfd2-6306-4865-bfc7-4503d7d5f3ad"
     ],
     "filterType": "GMSprite",
     "folderName": "group_Level1",

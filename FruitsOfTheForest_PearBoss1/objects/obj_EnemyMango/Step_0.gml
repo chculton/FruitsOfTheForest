@@ -3,7 +3,7 @@ projectile_direction = point_direction(x, y, obj_PhysicsPlayer.x, obj_PhysicsPla
 //sprite_index = spr_MangoBounce;
 if (attacking == false)
 {
-	
+	sprite_index = spr_MangoBounce;
 	if (timer <= 0 && (jump_cooldown < 1))
 	{
 		physics_apply_impulse(x, y, 0, -jmp);

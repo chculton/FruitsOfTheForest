@@ -47,4 +47,7 @@ if (Apressed == true)
 
 	if menu_index = 6
 	room_goto(rm_PearKingTest)
+	
+	if menu_index = 7
+	room_goto(rm_Level1)
 }

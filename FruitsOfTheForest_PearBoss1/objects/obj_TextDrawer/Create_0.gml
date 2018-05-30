@@ -9,6 +9,7 @@ button[3] = "Durian Enemy";
 button[4] = "Raspberry Enemy";
 button[5] = "Star Fruit Enemy";
 button[6] = "THE PEAR KING";
+button[7] = "Level 1"
 
 
 buttons = array_length_1d(button);

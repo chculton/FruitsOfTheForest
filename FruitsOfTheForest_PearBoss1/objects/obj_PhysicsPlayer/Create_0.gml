@@ -1,3 +1,5 @@
+sprite_index = spr_Player1Right;
+
 Direction = "Right";
 spd = 16;
 jmp = 6000;
