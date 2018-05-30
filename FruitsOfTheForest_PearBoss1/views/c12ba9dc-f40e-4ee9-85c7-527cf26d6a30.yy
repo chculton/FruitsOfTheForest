@@ -34,7 +34,9 @@
         "1933dd70-0669-4f31-808a-5fd12864d136",
         "0048a03e-d518-404a-b261-ff38fa03b036",
         "52a37e74-c235-497a-904f-f463b2682509",
-        "a041b920-1a3c-438a-9b74-e21acde38dcc"
+        "a041b920-1a3c-438a-9b74-e21acde38dcc",
+        "d088a430-a1ec-4d87-a791-34b1bb8a38f6",
+        "0578e750-06d1-466b-8c54-01fbbe23a3e6"
     ],
     "filterType": "GMObject",
     "folderName": "Level1",
