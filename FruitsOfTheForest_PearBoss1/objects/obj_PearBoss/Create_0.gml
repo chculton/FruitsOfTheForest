@@ -11,3 +11,5 @@ SecondPhaseBossSpawn = false;
 
 LooseLife = (ord("L"));
 SecondPhaseKey = (ord("P"));
+
+AimingPlayer = 0;

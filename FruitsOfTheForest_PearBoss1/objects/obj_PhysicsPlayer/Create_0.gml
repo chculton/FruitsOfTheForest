@@ -1,4 +1,5 @@
-sprite_index = spr_Player1Right;
+sprite_index = spr_Player1RightIdle;
+EndOfScreen = 1300;
 
 Direction = "Right";
 spd = 16;

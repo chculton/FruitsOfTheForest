@@ -4,10 +4,10 @@ if (gamepad_axis_value(0, gp_axislh))
 	left = false;
 }
 
-if (instance_exists(obj_PhysicsPlayer) && right == true)
+if (instance_exists(obj_PhysicsPlayer) && (instance_exists(obj_Player2)) && right == true)
 {
-	x = obj_PhysicsPlayer.x + 700;
-	y = obj_PhysicsPlayer.y - 300;
+	x = (obj_PhysicsPlayer.x + obj_Player2.x)/2 + 700;
+	y =  (obj_PhysicsPlayer.x + obj_Player2.x)/2 + 300;
 }
 
 if (gamepad_axis_value(0, gp_axislh) <= -0.3)
@@ -16,8 +16,9 @@ if (gamepad_axis_value(0, gp_axislh) <= -0.3)
 	right = false
 }
 
-if (instance_exists(obj_PhysicsPlayer) && left == true)
+if (instance_exists(obj_PhysicsPlayer) && (instance_exists(obj_Player2)) && left == true)
 {
-	x = obj_PhysicsPlayer.x - 700;
-	y = obj_PhysicsPlayer.y - 300;
+	x =  (obj_PhysicsPlayer.x + obj_Player2.x)/2 - 700;
+	y =  (obj_PhysicsPlayer.x + obj_Player2.x)/2 - 300;
 }
+

@@ -8,7 +8,9 @@
         "a2763065-e579-42ff-a0aa-8e37a2c9f888",
         "00516242-68f4-435f-9d12-28454bce0f8b",
         "7f451e08-dc3e-47ea-888f-adf2dc75cba9",
-        "38d9074e-d14f-46d1-a565-f000e14de9a6"
+        "38d9074e-d14f-46d1-a565-f000e14de9a6",
+        "32d0917e-1f9d-46ca-9618-54dee3b14764",
+        "4bc04ec4-eb23-4e0c-9ab2-92f6442fc7ba"
     ],
     "filterType": "GMObject",
     "folderName": "BossLevel",

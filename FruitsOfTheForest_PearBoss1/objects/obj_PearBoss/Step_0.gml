@@ -1,7 +1,26 @@
+if (obj_PhysicsPlayer.x >= obj_Player2.x)
+{
+	AimingPlayer = 1;
+}
+
+if (obj_PhysicsPlayer.x >= obj_Player2.x)
+{
+	AimingPlayer = 2;
+}
+
+if (AimingPlayer = 1)
+
 
 if (instance_exists(obj_PhysicsPlayer))
 {
-	 view_object[0] = obj_PhysicsPlayer;
+	if (AimingPlayer = 1)
+	{
+		view_object[0] = obj_PhysicsPlayer;
+	}
+	if (AimingPlayer = 2)
+	{
+		view_object[0] = obj_Player2;
+	}
 }
 
 
@@ -45,9 +64,16 @@ if (FirstPhase == true)
 		  sprite_index = spr_PearSummoningRoar;
 		  image_index = 1;
 		  previous_Attack = 3;
-	  
+		  if (AimingPlayer = 1)
+		{
 		  instance_create_layer(obj_PhysicsPlayer.x, obj_PhysicsPlayer.y - 900, "PlayerLayer", obj_SummoningRoarIndicator);
-	  }
+		}
+		
+		 if (AimingPlayer = 2)
+		{
+		  instance_create_layer(obj_PhysicsPlayer.x, obj_PhysicsPlayer.y - 900, "PlayerLayer", obj_SummoningRoarIndicator);
+		}
+	 }
   
 	  if (previous_Attack = 1)
 	  {
