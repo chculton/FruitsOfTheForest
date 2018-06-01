@@ -7,6 +7,9 @@ jmp = 6000;
 jump = false;
 jumping = false;
 image_speed = 0.5;
+notHolding = true;
+
+//HoldingDelores = false;
 
 right = gp_axislh;
 left = gp_axislh;

@@ -45,12 +45,24 @@ if (right == true && (jumping = true))
 	//sprite_index = spr_Player1Right;
 }
 
+//if (gamepad_button_check_pressed(0, gp_shoulderrb))
+//{
+//	notHolding = false;
+//}
 
+//if (!gamepad_button_check_pressed(0, gp_shoulderrb))
+//{
+//	notHolding = true;
+//}
 
 if (jump == true && (jump_cooldown < 1))
 {
 	physics_apply_impulse(x, y, 0, -jmp);
-	jump_cooldown++;
+	if (gamepad_button_check(0, gp_shoulderrb))
+	{
+		jump_cooldown += jump_cooldown + 1;
+	}
+	jump_cooldown += jump_cooldown + 1;
 	jumping = true;
 }
 
