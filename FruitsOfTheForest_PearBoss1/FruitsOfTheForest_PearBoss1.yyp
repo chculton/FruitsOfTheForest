@@ -362,7 +362,7 @@
             "Key": "26121a29-a112-416e-b31a-37cfc37b581d",
             "Value": {
                 "id": "0b86d224-aa7b-4bc5-8410-607445c39f95",
-                "resourcePath": "sprites\\spr_BananaAttack\\spr_BananaAttack.yy",
+                "resourcePath": "sprites\\spr_BananaFlying\\spr_BananaFlying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -594,7 +594,7 @@
             "Key": "42834a13-612f-425d-abc9-416de963c36d",
             "Value": {
                 "id": "cb9cc692-0616-4a9d-a97f-c9d46b4ea147",
-                "resourcePath": "sprites\\spr_BananaFlying\\spr_BananaFlying.yy",
+                "resourcePath": "sprites\\spr_BananaAttack\\spr_BananaAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -771,6 +771,14 @@
             "Value": {
                 "id": "aec50715-d631-4ca2-96d4-9e85f4792e4c",
                 "resourcePath": "sprites\\spr_BottomRight2\\spr_BottomRight2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5de31426-9d2e-4028-96f5-05a5070b6f9e",
+            "Value": {
+                "id": "ae4208a4-6a05-4a06-8a01-ff8c35809b37",
+                "resourcePath": "sprites\\spr_MangoDeath\\spr_MangoDeath.yy",
                 "resourceType": "GMSprite"
             }
         },

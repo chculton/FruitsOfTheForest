@@ -122,6 +122,12 @@ if (instance_exists(obj_PlayerCamera))
 ViewPort = room_get_viewport(rm_Level1, 0);
 EndOfScreen = ViewPort[1] + 1920;
 
+
+if (obj_PhysicsPlayer.x - obj_Player2.x > 1800)
+{
+	physics_apply_impulse(x, y , -500, 0);
+}
+
 //if (obj_PhysicsPlayer.x + obj_PlayerCamera <= 1300)
 //{
 	//physics_apply_impulse(x, y , -500, 0)
