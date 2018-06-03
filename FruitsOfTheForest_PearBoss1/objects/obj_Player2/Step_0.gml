@@ -97,11 +97,11 @@ if (Player1Health <= 0)
 	instance_destroy();
 }
 
-if (right == false && left == false && jump == false)
-{
-	sprite_index = spr_Player2RightIdle;
-	image_index = 1;
-}
+//if (right == false && left == false && jump == false)
+//{
+//	sprite_index = spr_Player2RightIdle;
+//	image_index = 1;
+//}
 
 if (instance_exists(obj_PlayerCamera))
 {

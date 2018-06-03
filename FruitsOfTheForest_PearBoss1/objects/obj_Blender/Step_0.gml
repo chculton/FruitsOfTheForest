@@ -2,7 +2,7 @@
 obj_Blender.y = mouse_y;*/
 if (HeldByPlayer1 == true)
 {
-	if (HoldingDelores == true)
+	if (HoldingDelores == true && (!gamepad_button_check(0, gp_face2)))
 	{
 		phy_position_x = obj_PhysicsPlayer.x;
 		phy_position_y = obj_PhysicsPlayer.y - 120;
@@ -49,7 +49,7 @@ if (HeldByPlayer1 == true)
 
 if (HeldByPlayer2 == true)
 {
-	if(HoldingDelores == true)
+	if(HoldingDelores == true && (!gamepad_button_check(0, gp_face2)))
 	{
 		phy_position_x = obj_Player2.x;
 		phy_position_y = obj_Player2.y - 120;

@@ -1,5 +1,7 @@
 /*obj_Blender.x = mouse_x;
 obj_Blender.y = mouse_y;*/
+global.GrabApples1 = false;
+global.GrabApples2 = false;
 
 isReleased = true;
 HoldingDelores = false;
