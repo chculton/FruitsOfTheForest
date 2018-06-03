@@ -105,7 +105,7 @@ if (right == false && left == false && jump == false)
 
 if (instance_exists(obj_PlayerCamera))
 {
-	if (obj_PhysicsPlayer.x - obj_PlayerCamera.x >= EndOfScreen + 300)
+	if (obj_Player2.x - obj_PlayerCamera.x >= EndOfScreen + 300)
 	{
 		physics_apply_impulse(x, y , -500, 0);
 	}
@@ -116,6 +116,12 @@ if (obj_Player2.x - obj_PhysicsPlayer.x > 1800)
 {
 	physics_apply_impulse(x, y , -500, 0);
 }
+
+//if (obj_Player2.x - obj_PhysicsPlayer.x < -1800)
+//{
+//	physics_apply_impulse(x, y , 500, 0);
+//}
+
 
 ViewPort = room_get_viewport(rm_Level1, 0);
 EndOfScreen = ViewPort[1] + 1920;

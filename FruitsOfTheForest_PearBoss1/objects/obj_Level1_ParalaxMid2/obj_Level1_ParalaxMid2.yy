@@ -1,8 +1,8 @@
 {
-    "id": "87566d41-c94c-4ffd-b82d-ac67858d5006",
+    "id": "29025a06-2a92-46d6-851c-16218bcfa381",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Level1ParalaxClose",
+    "name": "obj_Level1_ParalaxMid2",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00153c65-1035-48d1-ade9-f769149cb070",
+    "spriteId": "4ba9fc0a-9022-47ae-99cc-f41ed28ea477",
     "visible": true
 }
