@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "41a9a074-83c5-401b-8f5e-8ec15e58f449",
+            "Value": {
+                "id": "b44465fa-9bf3-4708-bef2-5f244e2e3b66",
+                "resourcePath": "sprites\\spr_DragonFruit\\spr_DragonFruit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "424db340-5156-44bd-8610-92027ad6de4e",
             "Value": {
                 "id": "982013a6-27fe-43ca-a4fc-2715398d13d2",
@@ -756,6 +764,14 @@
                 "id": "0faef5b7-4fc5-4132-aec2-c735a607c6df",
                 "resourcePath": "sprites\\spr_Particle_BasicLeaf\\spr_Particle_BasicLeaf.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4e72c94f-9a24-4a8e-8962-1a54278deac0",
+            "Value": {
+                "id": "b27823c9-6e82-4c7e-b0a0-6dbd424b5670",
+                "resourcePath": "views\\4e72c94f-9a24-4a8e-8962-1a54278deac0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
