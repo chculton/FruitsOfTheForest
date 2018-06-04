@@ -2231,6 +2231,14 @@
             }
         },
         {
+            "Key": "e2b3913b-1c1d-4fe0-93e9-f45a67f2d520",
+            "Value": {
+                "id": "de931c12-ce97-4b28-a64c-6680fab2a625",
+                "resourcePath": "objects\\obj_PlayerCameraLevel2\\obj_PlayerCameraLevel2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3917f3f-3ffc-4016-9505-2b5112713514",
             "Value": {
                 "id": "32cc8aeb-1ec1-46fc-a73f-ae61bbb34115",

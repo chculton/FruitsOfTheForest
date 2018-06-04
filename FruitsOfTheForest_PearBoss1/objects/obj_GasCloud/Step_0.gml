@@ -1,1 +1,1 @@
-x = x - spd;
+x = x + spd;
