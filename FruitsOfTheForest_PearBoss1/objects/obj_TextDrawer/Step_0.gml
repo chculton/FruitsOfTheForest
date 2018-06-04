@@ -31,7 +31,7 @@ if (Apressed == true)
 	room_goto(rm_BananaEnemy)
 
 	if menu_index = 1
-	room_goto(rm_GrapeEnemy)
+	room_goto(rm_Level2)
 
 	if menu_index = 2
 	room_goto(rm_MangoEnemy)

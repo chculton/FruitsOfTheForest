@@ -39,3 +39,14 @@ if ((inRange == true) && (attacking == false) && (dead == false))
 	phy_position_y += lengthdir_y(spd,projectile_direction);
 }
 
+if (place_meeting(x, y, obj_Blender))
+{
+	dead = true;
+	sprite_index = spr_MangoDeath;
+}
+
+if ((dead) && (image_index >= 12))
+{
+	
+	instance_destroy();
+}

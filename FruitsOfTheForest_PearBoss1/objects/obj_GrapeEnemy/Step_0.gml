@@ -6,13 +6,17 @@ if ((x - obj_PhysicsPlayer.x) < sensoryRange && attacking == false && dead == fa
 
 if (attacking == true && timer <= 0)
 {
-	instance_create_layer(x, y, "Instances", obj_GrapeBullet);
+	instance_create_layer(x, y, "PlayerLayer", obj_GrapeBullet);
+	if (layer_exists("Projectiles"))
+	{
+		instance_create_layer(x, y, "Projectiles", obj_GrapeBullet);
+	}
 	timer = 15;
 	sprite_index = spr_GrapeAttacking;
 	image_index = 1;
 }
 
-if (gamepad_button_check_pressed(0, gp_face2))
+if (place_meeting(x, y, obj_Blender))
 {
 	attacking = false;
 	sprite_index = spr_GrapeDeath;

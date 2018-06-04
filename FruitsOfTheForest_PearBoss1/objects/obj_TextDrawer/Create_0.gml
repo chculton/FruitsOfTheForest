@@ -3,7 +3,7 @@ menu_y = y;
 button_height = 15;
 
 button[0] = "Banana Enemy";
-button[1] = "Grape Enemy";
+button[1] = "Level2";
 button[2] = "Mango Enemy";
 button[3] = "Durian Enemy";
 button[4] = "Raspberry Enemy";
