@@ -24,12 +24,12 @@ if (gamepad_axis_value(1, gp_axislh) <= -0.3)
 
 if (right == true && (jumping = false))
 {
-	phy_position_x += spd;
+	phy_position_x += spd * 0.8;
 }
 
 if (left == true && (jumping = false))
 {
-	phy_position_x -= spd;
+	phy_position_x -= spd * 0.8;
 }
 
 if (left == true && (jumping = true))

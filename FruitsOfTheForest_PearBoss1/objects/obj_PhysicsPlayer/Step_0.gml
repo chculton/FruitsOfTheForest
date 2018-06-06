@@ -23,13 +23,13 @@ if (gamepad_axis_value(0, gp_axislh) <= -0.3)
 
 if (right == true && (jumping = false))
 {
-	phy_position_x += spd;
+	phy_position_x += spd * 0.8;
 	//sprite_index = spr_Player1Right;
 }
 
 if (left == true && (jumping = false))
 {
-	phy_position_x -= spd;
+	phy_position_x -= spd * 0.8;
 	//sprite_index = spr_Player1Left;
 }
 
