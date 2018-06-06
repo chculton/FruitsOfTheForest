@@ -10,7 +10,8 @@
         "5c31ca97-a1e6-42a0-8482-1fcf6092fa30",
         "dcd49187-b9c4-4940-8e58-567ea59b5e34",
         "6598e588-7354-4568-8250-37aa35d24b0c",
-        "46d0e3ff-cdb2-4831-8a80-de0baaa74026"
+        "46d0e3ff-cdb2-4831-8a80-de0baaa74026",
+        "2d860657-6f0c-4fcf-9e9f-edb7fbe75df2"
     ],
     "filterType": "GMObject",
     "folderName": "group_Enimies",

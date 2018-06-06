@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "2617e6e1-8c2d-461d-98a3-2dfaf9ba04cc",
+            "Value": {
+                "id": "b6c0d565-3183-43d6-b11f-01ddebc922bc",
+                "resourcePath": "objects\\obj_RockBackground\\obj_RockBackground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "261c5b74-d59e-4650-995f-4bb6aef14996",
             "Value": {
                 "id": "b0f02338-ea51-468e-9810-b31e0cbba189",
@@ -591,10 +599,26 @@
             }
         },
         {
+            "Key": "2d860657-6f0c-4fcf-9e9f-edb7fbe75df2",
+            "Value": {
+                "id": "93968429-b32c-4765-b68a-4f6ce3b12b76",
+                "resourcePath": "views\\2d860657-6f0c-4fcf-9e9f-edb7fbe75df2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2f888f43-53dd-4e4e-aeda-a09522503a3c",
             "Value": {
                 "id": "546fa2ce-229a-4a9c-9c17-74f2f92ed549",
                 "resourcePath": "objects\\obj_TopRight\\obj_TopRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2fdc8373-4357-42c9-8229-7aa13d6bcac5",
+            "Value": {
+                "id": "a17731f4-f0c8-4b02-9c44-019e64b0f618",
+                "resourcePath": "objects\\obj_DragonFruit\\obj_DragonFruit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2363,6 +2387,14 @@
             "Value": {
                 "id": "3c1f875a-03e9-45bb-b4c5-0ca79a5287a1",
                 "resourcePath": "objects\\obj_Screen1Background\\obj_Screen1Background.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f631535e-4453-4633-8465-f7d32d5b0f94",
+            "Value": {
+                "id": "c88d0848-8cae-4f50-9179-2c1ac27ea61b",
+                "resourcePath": "objects\\obj_DragonCamera\\obj_DragonCamera.yy",
                 "resourceType": "GMObject"
             }
         },
