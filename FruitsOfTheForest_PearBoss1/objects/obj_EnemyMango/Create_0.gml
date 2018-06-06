@@ -1,7 +1,7 @@
 inRange = false;
 attacking = false;
 
-sensoryRange = 200;
+sensoryRange = 400;
 timer = 15;
 
 

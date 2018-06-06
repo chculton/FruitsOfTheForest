@@ -1087,14 +1087,6 @@
             }
         },
         {
-            "Key": "62ebd43a-1773-48cf-a4b4-1e1023056245",
-            "Value": {
-                "id": "a2c58b31-a313-4697-847e-17c71eba6368",
-                "resourcePath": "rooms\\rm_DurianEnemy\\rm_DurianEnemy.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "646e59e7-b13e-4a6e-ad4f-03620abbf91e",
             "Value": {
                 "id": "5cef4e5b-94a6-434a-be4a-23ca1a928019",
@@ -1495,6 +1487,14 @@
             }
         },
         {
+            "Key": "8eb04496-d5c4-4650-bb0a-ad72b647aeaf",
+            "Value": {
+                "id": "3d04a155-bcf2-4b4c-b0f1-f231cef6cd38",
+                "resourcePath": "rooms\\rm_Level3\\rm_Level3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8f1809c1-5813-40bd-b8b1-21237ae862fa",
             "Value": {
                 "id": "f9f19573-dfb0-4e92-b01e-ee724b772103",
@@ -1530,7 +1530,7 @@
             "Key": "9295f468-5415-4258-90cb-ccc872a17fb4",
             "Value": {
                 "id": "c0ed8d83-b324-4962-89e7-6ccf8cfbc5a4",
-                "resourcePath": "rooms\\rm_BananaEnemy\\rm_BananaEnemy.yy",
+                "resourcePath": "rooms\\rm_TestRoom\\rm_TestRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1604,6 +1604,14 @@
                 "id": "d9e76777-32bf-483c-b040-818f5be9e4b3",
                 "resourcePath": "rooms\\rm_PearKingTest\\rm_PearKingTest.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9ebdf0db-c33d-447b-94d8-600e077e76a0",
+            "Value": {
+                "id": "9f7cbc79-a111-465a-8e98-a422b9fc9006",
+                "resourcePath": "objects\\obj_GrapeBullet2\\obj_GrapeBullet2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1831,14 +1839,6 @@
             }
         },
         {
-            "Key": "b824b49e-c532-4183-97ee-e637705cf205",
-            "Value": {
-                "id": "c8b3d452-4828-480e-89b9-2290c13fb9b4",
-                "resourcePath": "rooms\\rm_MangoEnemy\\rm_MangoEnemy.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "b9323d91-37ad-4b33-a6f2-fc69a0b73475",
             "Value": {
                 "id": "49700819-1b70-4847-9a03-c0f615fae117",
@@ -1980,14 +1980,6 @@
                 "id": "1f44c965-5fa9-4576-8373-c4ad6ee88167",
                 "resourcePath": "objects\\obj_GrapeEnemy\\obj_GrapeEnemy.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c878cf61-b6a0-4f9f-8af1-67e47325d5fa",
-            "Value": {
-                "id": "8056c32a-f1d3-4105-8df4-e29ee7f9b4e7",
-                "resourcePath": "rooms\\rm_GrapeEnemy\\rm_GrapeEnemy.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -2367,14 +2359,6 @@
             }
         },
         {
-            "Key": "f556b353-e8ca-4d45-bfa0-65aa1e8800b3",
-            "Value": {
-                "id": "94b86a50-7639-4e74-9148-a0774ab06778",
-                "resourcePath": "rooms\\rm_StarFruitEnemy\\rm_StarFruitEnemy.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "f5e7ba73-bdda-4dae-aa39-c3e356ac726d",
             "Value": {
                 "id": "3c1f875a-03e9-45bb-b4c5-0ca79a5287a1",
@@ -2412,14 +2396,6 @@
                 "id": "ec6151ce-0abe-4f00-932f-777be52a5dd0",
                 "resourcePath": "objects\\obj_StrawberryShortCut\\obj_StrawberryShortCut.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f8ee6d68-dbad-4f5b-81e7-5f01be8111dd",
-            "Value": {
-                "id": "869ad2bc-dfd8-47e6-a331-250397b980ec",
-                "resourcePath": "rooms\\rm_RaspberryEnemy\\rm_RaspberryEnemy.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

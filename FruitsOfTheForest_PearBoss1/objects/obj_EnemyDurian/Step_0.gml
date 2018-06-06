@@ -4,6 +4,11 @@ if (attacking = false && dead == false)
 	{
 		inRange = true;
 	}
+	
+	if ((x - obj_Player2.x) < sensoryRange)
+	{
+		inRange = true;
+	}
 }
 
 if (inRange == true && timer <= 0) 

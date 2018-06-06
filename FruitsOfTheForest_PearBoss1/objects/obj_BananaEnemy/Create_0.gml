@@ -9,3 +9,5 @@ projectile_timer = 10;
 spd = 30;
 
 splat = false;
+
+TargetingPlayer = 0;

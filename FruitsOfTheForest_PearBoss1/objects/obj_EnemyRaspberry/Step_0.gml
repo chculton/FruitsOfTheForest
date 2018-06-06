@@ -1,5 +1,14 @@
 phy_fixed_rotation = true;
-projectile_direction = point_direction(x, y, obj_PhysicsPlayer.x, obj_PhysicsPlayer.y);
+
+if ((x - obj_PhysicsPlayer.x) < sensoryRange)
+{
+	projectile_direction = point_direction(x, y, obj_PhysicsPlayer.x, obj_PhysicsPlayer.y);
+}
+if ((x - obj_Player2.x) < sensoryRange)
+{
+	projectile_direction = point_direction(x, y, obj_Player2.x, obj_Player2.y);
+}
+
 //sprite_index = spr_MangoBounce;
 if (attacking == false)
 {
@@ -28,6 +37,13 @@ if (attacking == false)
 	}
 }
 if ((x - obj_PhysicsPlayer.x) < sensoryRange && inRange == false)
+{
+	inRange = true;
+	sprite_index = spr_RaspberrryRunning;
+	
+}
+
+if ((x - obj_Player2.x) < sensoryRange && inRange == false)
 {
 	inRange = true;
 	sprite_index = spr_RaspberrryRunning;

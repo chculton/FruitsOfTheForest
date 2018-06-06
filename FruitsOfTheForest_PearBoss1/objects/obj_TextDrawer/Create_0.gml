@@ -2,14 +2,12 @@ menu_x = x;
 menu_y = y;
 button_height = 15;
 
-button[0] = "Banana Enemy";
-button[1] = "Level2";
-button[2] = "Mango Enemy";
-button[3] = "Durian Enemy";
-button[4] = "Raspberry Enemy";
-button[5] = "Star Fruit Enemy";
-button[6] = "THE PEAR KING";
-button[7] = "Level 1"
+button[0] = "Test Room";
+button[1] = "Level 1";
+button[2] = "Level 2";
+button[3] = "Level 3";
+button[4] = "THE PEAR KING";
+
 
 
 buttons = array_length_1d(button);

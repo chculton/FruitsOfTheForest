@@ -49,7 +49,7 @@ if (HeldByPlayer1 == true)
 
 if (HeldByPlayer2 == true)
 {
-	if(HoldingDelores == true && (!gamepad_button_check(0, gp_face2)))
+	if(HoldingDelores == true && (!gamepad_button_check(1, gp_face2)))
 	{
 		phy_position_x = obj_Player2.x;
 		phy_position_y = obj_Player2.y - 120;

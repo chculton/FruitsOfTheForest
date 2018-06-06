@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_BananaEnemy",
+    "name": "rm_TestRoom",
     "id": "9295f468-5415-4258-90cb-ccc872a17fb4",
     "creationCodeFile": "",
     "inheritCode": false,

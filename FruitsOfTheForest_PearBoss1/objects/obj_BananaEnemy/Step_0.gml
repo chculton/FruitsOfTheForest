@@ -1,14 +1,32 @@
-if (projectile_timer > 0)
+if (projectile_timer > 0 && TargetingPlayer = 1)
 {
 	projectile_direction = point_direction(x, y, obj_PhysicsPlayer.x, obj_PhysicsPlayer.y);
 }
 
-if ((x - obj_PhysicsPlayer.x) < sensoryRange && (obj_PhysicsPlayer.y < y) && attacking == false && splat == false)
+if (projectile_timer > 0 && TargetingPlayer = 2)
+{
+	projectile_direction = point_direction(x, y, obj_Player2.x, obj_Player2.y);
+}
+
+
+if ((x - obj_PhysicsPlayer.x) < sensoryRange && (obj_PhysicsPlayer.y > y) && attacking == false && splat == false)
 {
 	inRange = true;
 	sprite_index = spr_BananaAttack
 	image_index = 0;
 	timer --;
+	TargetingPlayer = 1;
+
+}
+
+
+if ((x - obj_Player2.x) < sensoryRange && (obj_Player2.y > y) && attacking == false && splat == false)
+{
+	inRange = true;
+	sprite_index = spr_BananaAttack
+	image_index = 0;
+	timer --;
+	TargetingPlayer = 2;
 
 }
 
