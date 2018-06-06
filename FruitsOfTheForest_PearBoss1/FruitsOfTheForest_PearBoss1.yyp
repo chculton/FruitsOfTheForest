@@ -1567,6 +1567,14 @@
             }
         },
         {
+            "Key": "93b7d1ff-1af8-4b46-ad69-b2df3fa35d4b",
+            "Value": {
+                "id": "b03bd29d-4410-4e2c-8566-eebf5246c5db",
+                "resourcePath": "objects\\obj_StrawberryRope\\obj_StrawberryRope.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "96cc51e2-8249-4ff8-bbd1-f89f48f6b2d1",
             "Value": {
                 "id": "5f33c927-5e78-4d42-875d-3acc8011e7e3",
@@ -1860,6 +1868,14 @@
                 "id": "1a75460a-8a87-48a0-9043-a986144b6ccb",
                 "resourcePath": "views\\b6a4e70a-a7fd-4456-9962-8d84c6596f69.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b7119847-7fc2-4dfc-abd0-013653ee5965",
+            "Value": {
+                "id": "91f59d4e-77be-4372-9eaa-057472b8491e",
+                "resourcePath": "objects\\obj_StrawberryPlatform2\\obj_StrawberryPlatform2.yy",
+                "resourceType": "GMObject"
             }
         },
         {

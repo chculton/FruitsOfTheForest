@@ -1,29 +1,10 @@
 {
-    "id": "7f76163a-f291-4056-b2aa-1f47eee1e511",
+    "id": "b7119847-7fc2-4dfc-abd0-013653ee5965",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_StrawberryPlatform",
+    "name": "obj_StrawberryPlatform2",
     "eventList": [
-        {
-            "id": "159ec781-7e96-4703-b478-afd050b9ccaf",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7f76163a-f291-4056-b2aa-1f47eee1e511"
-        },
-        {
-            "id": "427e6aa4-2075-479b-8441-45916948be6b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "7f76163a-f291-4056-b2aa-1f47eee1e511"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -41,28 +22,28 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "1fe1b05a-e0c1-48fc-a3a6-5134b939770d",
+            "id": "1086d390-baa7-466d-9f6e-33e99cdab6dc",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "244f786f-34a2-4a7d-b473-3be65ff1daf8",
+            "id": "cbd5874b-f06f-4e61-971a-4594a16aafea",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 128,
             "y": 0
         },
         {
-            "id": "b432e5d3-81ba-4190-b8af-997fd1e7538f",
+            "id": "cfef3832-2472-4b6f-85db-d0a5a3f3cab8",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 128,
             "y": 50
         },
         {
-            "id": "a1d82354-c179-42bf-9117-245c246b5329",
+            "id": "87025ec8-fab3-40ab-b7c5-3e8d65f2f70a",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
