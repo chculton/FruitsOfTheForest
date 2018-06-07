@@ -13,7 +13,7 @@ if (gamepad_button_check(0, gp_face2))
 
 		if (createdOnce = true && timer1 <= 0 && createdTwice == false)
 		{
-			instance_create_layer(x + 120, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 120, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer2 = 15;
 			createdTwice = true;
@@ -22,7 +22,7 @@ if (gamepad_button_check(0, gp_face2))
 
 		if (createdTwice = true && timer2 <= 0 && createdThree == false)
 		{
-			instance_create_layer(x + 240, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 240, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer3 = 15;
 			createdThree = true;
@@ -32,7 +32,7 @@ if (gamepad_button_check(0, gp_face2))
 
 		if (createdThree = true && timer3 <= 0 && createdFour == false)
 		{
-			instance_create_layer(x + 360, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 360, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer4 = 15;
 			createdFour = true;
@@ -41,7 +41,7 @@ if (gamepad_button_check(0, gp_face2))
 
 		if (createdFour = true && timer4 <= 0 && createdFive == false)
 		{
-			instance_create_layer(x + 480, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 480, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer5 = 15;
 			createdFive = true;
@@ -50,7 +50,7 @@ if (gamepad_button_check(0, gp_face2))
 
 		if (createdFive = true && timer5 <= 0 && createdSix == false)
 		{
-			instance_create_layer(x + 600, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 480, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			createdSix = true;
 			createdFive = false;
@@ -80,7 +80,7 @@ if (gamepad_button_check(1, gp_face2))
 
 		if (createdOnce = true && timer1 <= 0 && createdTwice == false)
 		{
-			instance_create_layer(x + 120, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 120, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer2 = 15;
 			createdTwice = true;
@@ -89,7 +89,7 @@ if (gamepad_button_check(1, gp_face2))
 
 		if (createdTwice = true && timer2 <= 0 && createdThree == false)
 		{
-			instance_create_layer(x + 240, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 240, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer3 = 15;
 			createdThree = true;
@@ -99,7 +99,7 @@ if (gamepad_button_check(1, gp_face2))
 
 		if (createdThree = true && timer3 <= 0 && createdFour == false)
 		{
-			instance_create_layer(x + 360, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 360, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer4 = 15;
 			createdFour = true;
@@ -108,7 +108,7 @@ if (gamepad_button_check(1, gp_face2))
 
 		if (createdFour = true && timer4 <= 0 && createdFive == false)
 		{
-			instance_create_layer(x + 480, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 480, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			timer5 = 15;
 			createdFive = true;
@@ -117,7 +117,7 @@ if (gamepad_button_check(1, gp_face2))
 
 		if (createdFive = true && timer5 <= 0 && createdSix == false)
 		{
-			instance_create_layer(x + 600, y, "PlayerLayer" ,obj_StrawberryRope)
+			instance_create_layer(x - 480, y, "PlayerLayer" ,obj_StrawberryRope)
 			completed = true;
 			createdSix = true;
 			createdFive = false;
