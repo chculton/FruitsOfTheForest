@@ -1,0 +1,1 @@
+damageTimer = 0;

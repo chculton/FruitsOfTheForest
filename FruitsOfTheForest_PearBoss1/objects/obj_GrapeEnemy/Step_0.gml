@@ -29,7 +29,7 @@ if (attacking2 == true && timer <= 0)
 	{
 		instance_create_layer(x, y, "Projectiles", obj_GrapeBullet2);
 	}
-	timer = 15;
+	timer = 35;
 	sprite_index = spr_GrapeAttacking;
 	image_index = 1;
 }

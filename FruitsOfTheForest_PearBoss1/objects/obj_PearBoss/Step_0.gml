@@ -97,7 +97,7 @@ if (FirstPhase == true)
 	}
 
 
-	if (pear_health <= 0)
+	if (global.PearHealth <= 0)
 	{
 		sprite_index = spr_PearFirstPhaseDeath;
 		FirstPhase = false;
@@ -108,17 +108,12 @@ if (FirstPhase == true)
 		instance_destroy(obj_PearAcidSpitBubble);  //Destroys Previous Attack
 		instance_destroy(obj_PearVineLashVines); //Destroys Previous Attack
 		instance_destroy(obj_SummoningRoarIndicator); //Destroys Previous Attack
-	}
-	//TEMPORARY (LIFE LOSS)
-
-	if (keyboard_check(LooseLife))
-	{
-		pear_health -= 1;
+		global.PearHealth = 3;
 	}
 
 }
 
-if ((SecondPhase == true) && (keyboard_check(SecondPhaseKey)) && SecondPhaseBossSpawn = false)
+if ((SecondPhase == true) && place_meeting(x, y, obj_PhysicsPlayer) && place_meeting(x, y, obj_Player2) && SecondPhaseBossSpawn = false)
 {
 	visible = false;
 	instance_create_layer(obj_PearBoss.x, obj_PearBoss.y, "PlayerLayer", obj_PearBossPhase2);
