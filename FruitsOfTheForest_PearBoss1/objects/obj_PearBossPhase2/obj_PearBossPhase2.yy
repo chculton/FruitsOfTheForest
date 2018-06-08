@@ -41,42 +41,56 @@
     "physicsShape": 2,
     "physicsShapePoints": [
         {
-            "id": "1296aaf8-c84a-474f-8420-f798b2f2afcb",
+            "id": "a359a85c-0402-4dac-9a93-f8eda158a1da",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 386.273621,
             "y": 703.6515
         },
         {
-            "id": "613ad109-e515-4aaa-81ef-08801f764e01",
+            "id": "771f1840-70bc-4cf1-8e43-f7b378aeb64b",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 88.00336,
             "y": 705.3513
         },
         {
-            "id": "ba96303d-9e3b-4526-b7c2-f54ab8ca712f",
+            "id": "d9316cc8-4fca-4971-b2cb-244db6c9bc87",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 33.1925659,
             "y": 462.8407
         },
         {
-            "id": "1b942e2f-d44a-491f-95b0-de07d691e2da",
+            "id": "dad587e7-5473-489f-8fd8-8ef921208619",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 181.46283,
-            "y": -4.645752
+            "x": 187.46283,
+            "y": 358.354248
         },
         {
-            "id": "554b4562-9b26-4cc3-819e-7090abacef77",
+            "id": "deccb3f7-3d22-4a3a-9acf-003d76e5c7e0",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 355.1115,
-            "y": 190.111
+            "x": 245.680969,
+            "y": 348.729431
         },
         {
-            "id": "6acacb9a-bfd3-42a5-b6c0-0630f22e05c2",
+            "id": "9e6a5418-7bf2-4060-8678-01564cca5ea7",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 298.160522,
+            "y": 344.7401
+        },
+        {
+            "id": "ef28f1c0-b18a-4513-bd2d-c975428b4ef4",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 365.1115,
+            "y": 388.111
+        },
+        {
+            "id": "60e1c8ce-1479-4c87-91a6-458356408cb8",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 438.057434,
