@@ -11,7 +11,7 @@ if (HeldByPlayer1 == true)
 		/*if ((gamepad_axis_value(0, gp_axisrh) != 0) || (gamepad_axis_value (0, gp_axisrv) != 0))
 		{*/
 			//image_angle = point_direction(0, 0, gamepad_axis_value(0, gp_axisrh), -gamepad_axis_value(0, gp_axisrv));
-			projectile_direction = point_direction(0, 0, gamepad_axis_value(0, gp_axisrh), gamepad_axis_value(0, gp_axisrv));
+			projectile_direction = point_direction(0, 0, gamepad_axis_value(0, gp_axislh), gamepad_axis_value(0, gp_axislv));
 		//}
 	
 			xvec = lengthdir_x(spd,projectile_direction);
@@ -58,7 +58,7 @@ if (HeldByPlayer2 == true)
 		/*if ((gamepad_axis_value(0, gp_axisrh) != 0) || (gamepad_axis_value (0, gp_axisrv) != 0))
 		{*/
 			//image_angle = point_direction(0, 0, gamepad_axis_value(0, gp_axisrh), -gamepad_axis_value(0, gp_axisrv));
-			projectile_direction = point_direction(0, 0, gamepad_axis_value(1, gp_axisrh), gamepad_axis_value(1, gp_axisrv));
+			projectile_direction = point_direction(0, 0, gamepad_axis_value(1, gp_axislh), gamepad_axis_value(1, gp_axislv));
 		//}
 	
 			xvec = lengthdir_x(spd,projectile_direction);
