@@ -1,11 +1,33 @@
 /*obj_Blender.x = mouse_x;
 obj_Blender.y = mouse_y;*/
+if ((!gamepad_button_check_pressed(0, gp_shoulderrb) && (!gamepad_button_check_pressed(1, gp_shoulderrb))))
+	{
+		if (place_meeting(x, y, obj_Dirt))
+		{
+			if (recentlyHeld == 1)
+			{
+				phy_position_x = obj_PhysicsPlayer.x;
+				phy_position_y = obj_PhysicsPlayer.y;
+			}
+			if (recentlyHeld == 2)
+			{
+				phy_position_x = obj_Player2.x;
+				phy_position_y = obj_Player2.y;
+			}
+			
+		}
+	}
+
 if (HeldByPlayer1 == true)
 {
+	recentlyHeld = 1;
 	if (HoldingDelores == true && (!gamepad_button_check(0, gp_face2)))
 	{
+
 		phy_position_x = obj_PhysicsPlayer.x;
 		phy_position_y = obj_PhysicsPlayer.y - 120;
+		
+		
 		HasBeenThrown = false;
 	
 		/*if ((gamepad_axis_value(0, gp_axisrh) != 0) || (gamepad_axis_value (0, gp_axisrv) != 0))
@@ -49,6 +71,7 @@ if (HeldByPlayer1 == true)
 
 if (HeldByPlayer2 == true)
 {
+	recentlyHeld = 2;
 	if(HoldingDelores == true && (!gamepad_button_check(1, gp_face2)))
 	{
 		phy_position_x = obj_Player2.x;

@@ -5,6 +5,7 @@ global.GrabApples2 = false;
 
 isReleased = true;
 HoldingDelores = false;
+recentlyHeld = 1;
 offset_y = 0;
 host = self;
 next_rope = instance_create_layer(obj_Blender.x, obj_Blender.y+offset_y, "PlayerLayer", obj_Rope);

@@ -1,6 +1,6 @@
 if ((obj_PhysicsPlayer.x > obj_GrabApplePlatfom3.x - 64) && (obj_PhysicsPlayer.x < obj_GrabApplePlatfom3.x + 64))
 {
-	if (gamepad_button_check(0, gp_face2))
+	if (gamepad_button_check(0, gp_face2) && (global.player1Holding == true))
 	{
 		global.GrabApples1 = true;
 		if (blenderTimer >= 20)
@@ -55,7 +55,7 @@ if ((obj_PhysicsPlayer.x > obj_GrabApplePlatfom3.x - 64) && (obj_PhysicsPlayer.x
 
 if ((obj_Player2.x > obj_GrabApplePlatfom3.x - 64) && (obj_Player2.x < obj_GrabApplePlatfom3.x + 64))
 {
-	if (gamepad_button_check(1, gp_face2))
+	if (gamepad_button_check(1, gp_face2) && (global.player2Holding == true))
 	{
 		global.GrabApples2 = true;
 		if (blenderTimer >= 20)

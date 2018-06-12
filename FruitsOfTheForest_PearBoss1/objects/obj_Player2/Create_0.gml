@@ -18,5 +18,6 @@ damageTimer = 15;
 damaged = false;
 
 global.Player2Health = 3;
+global.player2Holding = false;
 
 physics_world_gravity(0, 100);

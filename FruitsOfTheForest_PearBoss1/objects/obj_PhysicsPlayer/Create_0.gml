@@ -23,3 +23,4 @@ Player1Health = 5;
 physics_world_gravity(0, 100);
 
 global.Player1Health = 3;
+global.player1Holding = false;
