@@ -45,8 +45,13 @@ if (attacking = true && splat == false)
 	projectile_timer--;
 }
 
-if (place_meeting(x, y, obj_Blender) or place_meeting(x, y, obj_TopSide2))
+if (place_meeting(x, y, obj_TopSide2))
 {
 	sprite_index = spr_BananaSplat;
 	splat = true;
+}
+
+if (place_meeting(x, y, obj_Blender))
+{
+	instance_destroy();
 }

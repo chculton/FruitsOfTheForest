@@ -17,7 +17,7 @@ EndOfScreen = 1300;
 damageTimer = 15;
 damaged = false;
 
-global.Player2Health = 3;
+global.Player2Health = 5;
 global.player2Holding = false;
 
 physics_world_gravity(0, 100);

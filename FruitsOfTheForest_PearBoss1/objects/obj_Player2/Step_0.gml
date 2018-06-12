@@ -243,6 +243,12 @@ if (damaged = true)
 	damageTimer--
 }
 
+if(global.Player2Health <= 0)
+{
+	room_restart();
+	global.Player2Health = 5;
+}
+
 jump = false;
 left = false;
 right = false;

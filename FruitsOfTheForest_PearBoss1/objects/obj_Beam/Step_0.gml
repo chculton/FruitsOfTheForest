@@ -11,3 +11,8 @@ if (obj_Player2.x >= obj_PhysicsPlayer.x)
 	y += lengthdir_y(spd,projectile_direction2);
 	image_angle = projectile_direction2;
 }
+
+if (place_meeting(x, y, obj_Blender))
+{
+	instance_destroy();
+}

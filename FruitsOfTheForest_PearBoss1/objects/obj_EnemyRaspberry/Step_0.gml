@@ -79,10 +79,17 @@ if (charge_timer <= 0 && dead == false)
 	
 }
 
+if (place_meeting(x, y, obj_Blender))
+{
+	dead = true;
+	sprite_index = spr_RaspberryExplosion;
+}
+
 if ((dead) && (image_index >= 7))
 {
 	
 	instance_destroy();
 }
+
 	
 

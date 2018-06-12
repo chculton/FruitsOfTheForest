@@ -49,6 +49,7 @@ if ((obj_PhysicsPlayer.x > obj_GrabApplePlatfom5.x - 64) && (obj_PhysicsPlayer.x
 				
 			blenderTimer = 30; 
 			global.GrabApples1 = false;
+			global.player1Holding = false;
 		}
 	}
 }
@@ -104,6 +105,7 @@ if ((obj_Player2.x > obj_GrabApplePlatfom5.x - 64) && (obj_Player2.x < obj_GrabA
 				
 			blenderTimer = 30; 
 			global.GrabApples2 = false;
+			global.player2Holding = false;
 		}
 	}
 }
