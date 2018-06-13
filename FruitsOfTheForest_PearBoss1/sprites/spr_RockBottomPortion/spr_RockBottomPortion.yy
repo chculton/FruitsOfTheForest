@@ -17,7 +17,6 @@
     "frames": [
         {
             "id": "cef47962-7c83-4df1-a166-f02d23d39d1e",
-
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "1ef06725-6b1e-45a1-a3c8-122280fa191c",

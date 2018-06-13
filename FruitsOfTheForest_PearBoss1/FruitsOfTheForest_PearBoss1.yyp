@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "5c31efac-aab4-493d-8b5e-e30cc070b334",
+            "Value": {
+                "id": "f84f672c-52b8-4424-9369-74f1105bec5d",
+                "resourcePath": "objects\\objGameManager\\objGameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5d8b089f-51a5-4304-b332-b3ed54279040",
             "Value": {
                 "id": "aec50715-d631-4ca2-96d4-9e85f4792e4c",
@@ -2311,6 +2319,14 @@
             }
         },
         {
+            "Key": "cec9ba51-bbd5-40cc-97cd-75b6daec4739",
+            "Value": {
+                "id": "ba1a8476-9577-410c-a4cc-950f7b674b22",
+                "resourcePath": "objects\\objCapyberaHead1\\objCapyberaHead1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cfd02524-ee25-4803-bfb6-9a38300215e7",
             "Value": {
                 "id": "39ce3135-c452-49fd-9cdc-a8ba7484c4fa",
@@ -2532,6 +2548,14 @@
                 "id": "875c186c-0533-44dd-8824-e8fe57d49561",
                 "resourcePath": "sprites\\spr_StrawberryPatch\\spr_StrawberryPatch.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e616ae9c-145e-4de5-ad3b-0ef7478b1d6a",
+            "Value": {
+                "id": "12e13b0c-50a1-4943-b83f-d872a294a644",
+                "resourcePath": "objects\\objCapyberaHead2\\objCapyberaHead2.yy",
+                "resourceType": "GMObject"
             }
         },
         {

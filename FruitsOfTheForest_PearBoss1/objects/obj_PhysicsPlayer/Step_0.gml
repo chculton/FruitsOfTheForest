@@ -153,6 +153,7 @@ if (place_meeting(x, y, obj_EnemyRaspberry) && (sprite_index != spr_Player1Damag
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (place_meeting(x, y, obj_GrapeBullet) && (sprite_index != spr_Player1Damage))
@@ -162,6 +163,7 @@ if (place_meeting(x, y, obj_GrapeBullet) && (sprite_index != spr_Player1Damage))
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (place_meeting(x, y, obj_EnemyMango) && (sprite_index != spr_Player1Damage))
@@ -171,6 +173,7 @@ if (place_meeting(x, y, obj_EnemyMango) && (sprite_index != spr_Player1Damage))
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (place_meeting(x, y, obj_BananaEnemy) && (sprite_index != spr_Player1Damage))
@@ -180,6 +183,7 @@ if (place_meeting(x, y, obj_BananaEnemy) && (sprite_index != spr_Player1Damage))
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (place_meeting(x, y, obj_PearAcidSpitProjectile) && (sprite_index != spr_Player1Damage))
@@ -189,6 +193,7 @@ if (place_meeting(x, y, obj_PearAcidSpitProjectile) && (sprite_index != spr_Play
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (place_meeting(x, y, obj_PearVineLashVines) && (sprite_index != spr_Player1Damage))
@@ -198,6 +203,7 @@ if (place_meeting(x, y, obj_PearVineLashVines) && (sprite_index != spr_Player1Da
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (place_meeting(x, y, obj_PearBossPhase2) && (sprite_index != spr_Player1Damage))
@@ -207,6 +213,7 @@ if (place_meeting(x, y, obj_PearBossPhase2) && (sprite_index != spr_Player1Damag
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (place_meeting(x, y, obj_SummoningRoarFallingRock) && (sprite_index != spr_Player1Damage))
@@ -216,6 +223,7 @@ if (place_meeting(x, y, obj_SummoningRoarFallingRock) && (sprite_index != spr_Pl
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 
@@ -226,6 +234,7 @@ if (place_meeting(x, y, obj_SummoningRoarFallingRock2) && (sprite_index != spr_P
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 
@@ -236,6 +245,7 @@ if (place_meeting(x, y, obj_Beam) && (sprite_index != spr_Player1Damage))
 	image_index = 0;
 	damaged = true;
 	global.Player1Health--;
+	global.DecreaseHealthBarP1 = true;
 }
 
 if (damaged = true)
