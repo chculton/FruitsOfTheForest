@@ -2,7 +2,7 @@ if (place_meeting(x, y - 10, obj_PhysicsPlayer))
 {
 	if(!instance_exists(objGrabAppleToolTip))
 	{
-		instance_create_depth(obj_GrabApples.x, obj_GrabApples3.y + 50, "PlayerLayer", objGrabAppleToolTip);
+		instance_create_depth(obj_StrawberryPlatform2.x, obj_StrawberryPlatform2.y - 100, "PlayerLayer", objGrabAppleToolTip);
 	}
 	instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
 	
@@ -77,7 +77,7 @@ if (place_meeting(x, y - 10, obj_Player2))
 {
 	if(!instance_exists(objGrabAppleToolTip))
 	{
-		instance_create_depth(obj_GrabApples.x, obj_GrabApples3.y + 50, "PlayerLayer", objGrabAppleToolTip);
+		instance_create_depth(obj_StrawberryPlatform2.x, obj_StrawberryPlatform2.y - 100, "PlayerLayer", objGrabAppleToolTip);
 	}
 	instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
 	
