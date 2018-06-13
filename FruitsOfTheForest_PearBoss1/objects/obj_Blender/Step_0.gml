@@ -118,57 +118,40 @@ if (HeldByPlayer2 == true)
 	firstRope.phy_position_y = mouse_y;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	//if(isReleased == true)
-	//{
-		//haxis = gamepad_axis_value(0, gp_axisrh);
-		//vaxis = gamepad_axis_value(0, gp_axisrv);
-		//projectile_direction = point_direction(x, y, haxis, vaxis);
-		//physics_apply_impulse(0, 0, haxis, vaxis);
-
-
-/*if (keyboard_check(right) && (jumping = true))
+if ((obj_PhysicsPlayer.phy_position_y > 1080) && (obj_Player2.phy_position_y > 1080) && moved1 == false)
 {
-	phy_position_x += spd * 0.8;
+	phy_position_x = obj_PhysicsPlayer.x;
+	phy_position_y = obj_PhysicsPlayer.y;
+	moved1 = true;
+}
+
+if ((obj_PhysicsPlayer.phy_position_y > 2160) && (obj_Player2.phy_position_y > 2160) && moved2 == false)
+{
+	phy_position_x = obj_PhysicsPlayer.x;
+	phy_position_y = obj_PhysicsPlayer.y;
+	moved2 = true;
+}
+
+if ((obj_PhysicsPlayer.phy_position_y > 3240) && (obj_Player2.phy_position_y > 3240) && moved3 == false)
+{
+	phy_position_x = obj_PhysicsPlayer.x;
+	phy_position_y = obj_PhysicsPlayer.y;
+	moved3 = true;
 }
 
 
 
-if (keyboard_check_pressed(jump) && (jump_cooldown < 1))
-{
-	physics_apply_impulse(x, y, 0, -jmp);
-	jump_cooldown++;
-	jumping = true;
-}
 
-/*if (place_meeting(x, y + 7, obj_Platform))
-{
-	jumping = false;
-}
 
-if ((place_meeting(x, y + 7, obj_Platform)) && (jump_cooldown > 0))
-{
-	jump_cooldown--;
-}*/
+
+
+
+
+
+
+
+
+
+
+
+

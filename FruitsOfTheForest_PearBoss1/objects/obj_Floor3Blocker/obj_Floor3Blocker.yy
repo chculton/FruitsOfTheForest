@@ -1,10 +1,19 @@
 {
-    "id": "e616ae9c-145e-4de5-ad3b-0ef7478b1d6a",
+    "id": "e11c849c-118d-44f7-9eaa-c7ffb554f973",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objCapyberaHead2",
+    "name": "obj_Floor3Blocker",
     "eventList": [
-        
+        {
+            "id": "1872e796-2478-4de7-925d-33b073ecd8b3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "e11c849c-118d-44f7-9eaa-c7ffb554f973"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "01381ed4-299b-4935-9452-f39ea53de263",
+    "spriteId": "232c9785-d523-4e1b-bf21-ff060b33cd1b",
     "visible": true
 }

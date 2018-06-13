@@ -1,5 +1,5 @@
 //ViewPort = room_get_viewport(rm_Level1, 0);
-var vx = camera_get_view_x(view_camera[0]);
+vx = camera_get_view_x(view_camera[0]);
 spawnSpacing1 = 0;
 spawnSpacing2 = 0;
 
@@ -10,12 +10,12 @@ global.DecreaseHealthBarP2 = false;
 
 for(i = 0; i < global.Player1Health; i++)
 {
-	Array1[i] = instance_create_depth(vx + spawnSpacing1, 50, "PlayerLayer", objCapyberaHead1);
-	spawnSpacing1 += 100;
+	Array1[i] = instance_create_depth(vx + 10, 50 + spawnSpacing1, "PlayerLayer", obj_CapyberaHead1);
+	spawnSpacing1 += 80;
 }
 
 for(i = 0; i < global.Player2Health; i++)
 {
-	Array2[i] = instance_create_depth(vx + spawnSpacing2, 150, "PlayerLayer", objCapyberaHead2);
-	spawnSpacing2 += 100;
+	Array2[i] = instance_create_depth(vx + 100, 50 + spawnSpacing2, "PlayerLayer", obj_CapyberaHead2);
+	spawnSpacing2 += 80;
 }

@@ -17,6 +17,10 @@ HasBeenThrown = true;
 phy_fixed_rotation = true;
 HeldByPlayer1 = false;
 HeldByPlayer2 = false;
+moved1 = false;
+moved2 = false;
+moved3 = false;
+
 
 attach = physics_joint_distance_create(obj_Blender, next_rope, obj_Blender.x, obj_Blender.y, next_rope.x, next_rope.y, false);
 
