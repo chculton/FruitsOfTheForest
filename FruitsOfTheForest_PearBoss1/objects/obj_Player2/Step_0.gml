@@ -150,7 +150,7 @@ if (place_meeting(x, y, obj_EnemyRaspberry) && (sprite_index != spr_Player2Damag
 	global.DecreaseHealthBarP2 = true;
 }
 
-if (place_meeting(x, y, spr_Player2Damage) && (sprite_index != spr_Player2Damage))
+if (place_meeting(x, y, obj_GrapeBullet) && (sprite_index != spr_Player2Damage))
 {
 	damageTimer = 15;
 	sprite_index = spr_Player2Damage;

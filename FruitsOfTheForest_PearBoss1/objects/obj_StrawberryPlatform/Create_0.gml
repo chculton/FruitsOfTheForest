@@ -16,3 +16,6 @@ timer5 = 15;
 timer6 = 15;
 
 destroyTimer = 0;
+
+berrySpacing = 0;
+NotBuilt = false;
