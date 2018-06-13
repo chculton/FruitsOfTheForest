@@ -1,5 +1,9 @@
 if ((obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x - 64) && (obj_PhysicsPlayer.x < obj_GrabApplePlatfom.x + 64))
 {
+	if(!instance_exists(objGrabAppleToolTip))
+	{
+		instance_create_depth(obj_GrabApples.x, obj_GrabApples3.y + 50, "PlayerLayer", objGrabAppleToolTip);
+	}
 	if (gamepad_button_check(0, gp_face2) && (global.player1Holding == true))
 	{
 		global.GrabApples1 = true;
@@ -53,9 +57,17 @@ if ((obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x - 64) && (obj_PhysicsPlayer.x 
 		}
 	}
 }
+/*else if ((obj_PhysicsPlayer.x < obj_GrabApplePlatfom.x - 64) && (obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x + 64) && instance_exists(objGrabAppleToolTip))
+{
+	instance_destroy(objGrabAppleToolTip);
+}*/
 
 if ((obj_Player2.x > obj_GrabApplePlatfom.x - 64) && (obj_Player2.x < obj_GrabApplePlatfom.x + 64))
 {
+	if(!instance_exists(objGrabAppleToolTip))
+	{
+		instance_create_depth(obj_GrabApples.x, obj_GrabApples3.y + 50, "PlayerLayer", objGrabAppleToolTip);
+	}
 	if (gamepad_button_check(1, gp_face2) && (global.player2Holding == true))
 	{
 		global.GrabApples2 = true;
@@ -108,4 +120,9 @@ if ((obj_Player2.x > obj_GrabApplePlatfom.x - 64) && (obj_Player2.x < obj_GrabAp
 			//global.player2Holding = false;
 		}
 	}
+}
+
+if ((obj_Player2.x > obj_GrabApplePlatfom.x - 64) && (obj_Player2.x < obj_GrabApplePlatfom.x + 64) && (obj_PhysicsPlayer.x < obj_GrabApplePlatfom.x - 64) && (obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x + 64) && instance_exists(objGrabAppleToolTip))
+{
+	instance_destroy(objGrabAppleToolTip);
 }

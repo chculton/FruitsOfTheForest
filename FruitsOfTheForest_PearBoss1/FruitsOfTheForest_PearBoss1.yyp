@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "64ab4e84-9dcb-4aa6-9315-125ba759b971",
+            "Value": {
+                "id": "acd212ed-57a7-4df2-a203-f26874843fec",
+                "resourcePath": "objects\\objGrabAppleToolTip\\objGrabAppleToolTip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "650af0b8-6056-47a7-bdf5-16866de5e92e",
             "Value": {
                 "id": "3c6fa5f0-6bc8-400c-ba09-93c3b81e8a9a",
@@ -2340,6 +2348,14 @@
                 "id": "a2d41db1-c6ac-4e0f-8f1d-521f66856620",
                 "resourcePath": "objects\\obj_LotsOfDirt\\obj_LotsOfDirt.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d0df326b-d266-41ad-b611-737d32f24941",
+            "Value": {
+                "id": "7dc512d8-f8ae-4566-8df8-cf04f6ea1ccb",
+                "resourcePath": "sprites\\sprite144\\sprite144.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
