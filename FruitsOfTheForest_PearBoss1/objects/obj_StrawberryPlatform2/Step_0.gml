@@ -1,6 +1,13 @@
-if (gamepad_button_check(0, gp_face2))
+if (place_meeting(x, y - 10, obj_PhysicsPlayer))
+{
+	if(!instance_exists(objGrabAppleToolTip))
 	{
-
+		instance_create_depth(obj_GrabApples.x, obj_GrabApples3.y + 50, "PlayerLayer", objGrabAppleToolTip);
+	}
+	instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
+	
+	if (gamepad_button_check(1, gp_face2))
+	{
 		if (place_meeting(x, y - 10, obj_PhysicsPlayer) && (completed == false))
 		{
 	
@@ -62,12 +69,20 @@ if (gamepad_button_check(0, gp_face2))
 		timer4--;
 		timer5--;
 		destroyTimer = 15;
+	}
 
 }
 
-if (gamepad_button_check(1, gp_face2))
+if (place_meeting(x, y - 10, obj_Player2))
+{
+	if(!instance_exists(objGrabAppleToolTip))
 	{
-
+		instance_create_depth(obj_GrabApples.x, obj_GrabApples3.y + 50, "PlayerLayer", objGrabAppleToolTip);
+	}
+	instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
+	
+	if (gamepad_button_check(1, gp_face2))
+	{
 		if (place_meeting(x, y - 10, obj_Player2) && (completed == false))
 		{
 	
@@ -129,6 +144,7 @@ if (gamepad_button_check(1, gp_face2))
 		timer4--;
 		timer5--;
 		destroyTimer = 15;
+	}
 
 }
 
@@ -142,6 +158,11 @@ if (destroyTimer <= 0)
 	createdFour = false;
 	createdFive = false;
 	createdSix = false;
+}
+
+if ((obj_Player2.x < obj_StrawberryPlatform2.x - 64) || (obj_Player2.x > obj_StrawberryPlatform2.x + 64) || (obj_PhysicsPlayer.x < obj_StrawberryPlatform2.x - 64) || (obj_PhysicsPlayer.x > obj_StrawberryPlatform2.x + 64) && instance_exists(objGrabAppleToolTip))
+{
+	instance_destroy(objGrabAppleToolTip);
 }
 
 destroyTimer --;
