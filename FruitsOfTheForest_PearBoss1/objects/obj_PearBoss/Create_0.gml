@@ -3,8 +3,8 @@ timer = 150;
 second_timer = 5;
 previous_Attack = 0;
 
-global.PearHealth = 5;
-global.MaxPearHealth = 5;
+global.PearHealth = 500;
+global.MaxPearHealth = 500;
 
 FirstPhase = true;
 SecondPhase = false;
@@ -14,3 +14,4 @@ LooseLife = (ord("L"));
 SecondPhaseKey = (ord("P"));
 
 AimingPlayer = 0;
+

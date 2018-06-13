@@ -1266,7 +1266,7 @@
             "Key": "6760731f-9d49-4d64-9877-74ea4f7180d8",
             "Value": {
                 "id": "7b935b56-d2f1-4373-a9d9-7a1f69d6edc4",
-                "resourcePath": "objects\\obj_HealthBar\\obj_HealthBar.yy",
+                "resourcePath": "objects\\obj_PearHealthBar\\obj_PearHealthBar.yy",
                 "resourceType": "GMObject"
             }
         },

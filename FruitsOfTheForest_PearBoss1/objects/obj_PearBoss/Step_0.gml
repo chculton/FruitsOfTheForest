@@ -108,7 +108,7 @@ if (FirstPhase == true)
 		instance_destroy(obj_PearAcidSpitBubble);  //Destroys Previous Attack
 		instance_destroy(obj_PearVineLashVines); //Destroys Previous Attack
 		instance_destroy(obj_SummoningRoarIndicator); //Destroys Previous Attack
-		global.PearHealth = 3;
+		global.PearHealth = 300;
 	}
 
 }
