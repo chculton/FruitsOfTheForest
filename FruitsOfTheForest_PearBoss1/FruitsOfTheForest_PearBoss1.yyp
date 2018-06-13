@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "01381ed4-299b-4935-9452-f39ea53de263",
+            "Value": {
+                "id": "bf9fdbba-150b-4fb6-b8a5-d6ccad4a66cf",
+                "resourcePath": "sprites\\spr_Player2Life\\spr_Player2Life.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "013c12c3-c324-480b-8938-4c70db0690c4",
             "Value": {
                 "id": "99a8c43e-181e-4393-8840-88d8395e5305",
@@ -475,6 +483,14 @@
             "Value": {
                 "id": "f5ab2ad6-ab00-43db-b4b6-56d22f0fe76e",
                 "resourcePath": "sprites\\spr_Beam\\spr_Beam.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "213e689e-3466-4fae-b99f-33ddb356eb68",
+            "Value": {
+                "id": "efaf7b3f-3d26-46a2-9fe1-35b06276abaa",
+                "resourcePath": "sprites\\spr_PearHealthBarFill\\spr_PearHealthBarFill.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1111,6 +1127,14 @@
             }
         },
         {
+            "Key": "5e6a0696-1edc-4fef-807a-b626075b8a1b",
+            "Value": {
+                "id": "b45d8b60-3943-4265-8283-da4cdb9546bd",
+                "resourcePath": "objects\\obj_HealthDisplay\\obj_HealthDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e8d198d-ea42-4520-874d-788134634098",
             "Value": {
                 "id": "3a09398f-6f11-4fb4-96bb-d343aaf5c19f",
@@ -1212,6 +1236,14 @@
                 "id": "d86e44d4-a20b-4dd6-8132-6125fb1956e9",
                 "resourcePath": "views\\664c1619-0755-416c-aecd-04aa3680c646.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6760731f-9d49-4d64-9877-74ea4f7180d8",
+            "Value": {
+                "id": "7b935b56-d2f1-4373-a9d9-7a1f69d6edc4",
+                "resourcePath": "objects\\obj_HealthBar\\obj_HealthBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1687,6 +1719,14 @@
             }
         },
         {
+            "Key": "9991a978-6776-4735-9be8-522f9529eea7",
+            "Value": {
+                "id": "bf637f32-1f08-4f77-9774-ccd940c200bc",
+                "resourcePath": "sprites\\spr_PearHealthBarRight\\spr_PearHealthBarRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99a44d3b-7f9d-4abe-beb2-44236f83b994",
             "Value": {
                 "id": "f43eacf8-b4c7-43d1-90a2-a7233f652496",
@@ -1996,6 +2036,14 @@
                 "id": "91f59d4e-77be-4372-9eaa-057472b8491e",
                 "resourcePath": "objects\\obj_StrawberryPlatform2\\obj_StrawberryPlatform2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b92972fe-0504-469a-bf6c-27503327bf9a",
+            "Value": {
+                "id": "b2930bc3-d55f-4864-abb9-7485b3f195f8",
+                "resourcePath": "sprites\\spr_PearHealthBarLeft\\spr_PearHealthBarLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2399,6 +2447,14 @@
             }
         },
         {
+            "Key": "dd7beedb-01bb-40ce-b889-2d1573af1627",
+            "Value": {
+                "id": "1d9d63a8-a20a-4136-88df-8ce21fc99592",
+                "resourcePath": "sprites\\spr_PearHealthBarCentre\\spr_PearHealthBarCentre.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dfaa8464-1768-438b-ad86-b2dcc3b7e3c4",
             "Value": {
                 "id": "96da1b6f-d6c4-43de-9f83-9ab812b7bd4c",
@@ -2540,6 +2596,14 @@
                 "id": "079ac882-db20-4bc3-be56-7fc46fd99e69",
                 "resourcePath": "views\\ef0b76b2-87f0-4eef-9fc0-023fb7885e7d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef97232f-61a4-4cfa-97ce-598505d62497",
+            "Value": {
+                "id": "8e1bd19f-9947-418f-9c0f-fdf984f0b9e1",
+                "resourcePath": "sprites\\spr_Player1Life\\spr_Player1Life.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

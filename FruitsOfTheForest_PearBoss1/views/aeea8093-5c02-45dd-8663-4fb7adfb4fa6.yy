@@ -8,7 +8,8 @@
         "ab9311ff-b27f-4caf-86ae-7894f9ff6971",
         "d540cdc7-47a8-45d2-b239-3a4f5c3257a3",
         "e2b3913b-1c1d-4fe0-93e9-f45a67f2d520",
-        "f631535e-4453-4633-8465-f7d32d5b0f94"
+        "f631535e-4453-4633-8465-f7d32d5b0f94",
+        "5e6a0696-1edc-4fef-807a-b626075b8a1b"
     ],
     "filterType": "GMObject",
     "folderName": "group_Player",

@@ -4,6 +4,7 @@ second_timer = 5;
 previous_Attack = 0;
 
 global.PearHealth = 5;
+global.MaxPearHealth = 5;
 
 FirstPhase = true;
 SecondPhase = false;

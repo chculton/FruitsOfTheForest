@@ -14,7 +14,9 @@
         "69151949-8442-4fd0-b2a6-20d56e4e887d",
         "a70aef35-515e-449d-9b8e-22906eca0f73",
         "92421e88-b659-42d9-a210-2384e2ac8491",
-        "facf01c9-800c-465d-8eed-12c85ee4c875"
+        "facf01c9-800c-465d-8eed-12c85ee4c875",
+        "ef97232f-61a4-4cfa-97ce-598505d62497",
+        "01381ed4-299b-4935-9452-f39ea53de263"
     ],
     "filterType": "GMSprite",
     "folderName": "group_Player",
