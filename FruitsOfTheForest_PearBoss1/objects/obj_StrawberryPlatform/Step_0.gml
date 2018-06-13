@@ -2,10 +2,11 @@ if (place_meeting(x, y - 10, obj_PhysicsPlayer))
 {
 	if(!instance_exists(objGrabAppleToolTip))
 	{
-		instance_create_depth(obj_StrawberryPlatform.x, obj_StrawberryPlatform.y - 100, "PlayerLayer", objGrabAppleToolTip);
+		instance_create_layer(obj_StrawberryPlatform.x - 40, obj_StrawberryPlatform.y - 250, "PlayerLayer", objGrabAppleToolTip);
 	}
-	instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
-	if (gamepad_button_check(1, gp_face2))
+	
+	//instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
+	if (gamepad_button_check(0, gp_face2))
 	{
 		if (place_meeting(x, y - 10, obj_PhysicsPlayer) && (completed == false))
 		{
@@ -75,16 +76,16 @@ if (place_meeting(x, y - 10, obj_Player2))
 {
 	if(!instance_exists(objGrabAppleToolTip))
 	{
-		instance_create_depth(obj_StrawberryPlatform.x, obj_StrawberryPlatform.y - 100, "PlayerLayer", objGrabAppleToolTip);
+		instance_create_layer(obj_StrawberryPlatform.x, obj_StrawberryPlatform.y - 100, "PlayerLayer", objGrabAppleToolTip);
 	}
-	instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
-	if (gamepad_button_check(1, gp_face2))
+	//instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
+	
+		if (gamepad_button_check(1, gp_face2))
 	{
 		if (place_meeting(x, y - 10, obj_Player2) && (completed == false))
 		{
-	
-				/*instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
-				completed = true;*/
+				instance_create_layer(x, y, "PlayerLayer" ,obj_StrawberryRope)
+				completed = true;
 				createdOnce = true;
 				timer1 = 15;
 
@@ -157,9 +158,14 @@ if (destroyTimer <= 0)
 	createdSix = false;
 }
 
-if ((obj_Player2.x < obj_StrawberryPlatform.x - 64) || (obj_Player2.x > obj_StrawberryPlatform.x + 64) || (obj_PhysicsPlayer.x < obj_StrawberryPlatform.x - 64) || (obj_PhysicsPlayer.x > obj_StrawberryPlatform.x + 64) && instance_exists(objGrabAppleToolTip))
+
+if ((obj_Player2.x < obj_StrawberryPlatform.x - 64) || (obj_Player2.x > obj_StrawberryPlatform.x + 64))
 {
-	instance_destroy(objGrabAppleToolTip);
+	if ((((obj_PhysicsPlayer.x < obj_StrawberryPlatform.x - 64) || (obj_PhysicsPlayer.x > obj_StrawberryPlatform.x + 64)) && instance_exists(objGrabAppleToolTip)))
+	{
+		instance_destroy(objGrabAppleToolTip);
+	}	
 }
+
 
 destroyTimer --;

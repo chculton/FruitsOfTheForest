@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_StrawberryRope",
     "eventList": [
-        
+        {
+            "id": "54f0639f-86e8-44f9-ab3b-77aa1eb7fda8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "93b7d1ff-1af8-4b46-ad69-b2df3fa35d4b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
