@@ -63,6 +63,7 @@ if (chase_timer <= 0 && chasing == true)
 {
 	attacking = true;
 	sprite_index = spr_RaspberryCharge;
+	audio_play_sound(sfx_RaspberryCharge, 3, false);
 	//image_index = 1;
 	charge_timer--;
 	//chasing = false;
@@ -72,6 +73,7 @@ if (charge_timer <= 0 && dead == false)
 {
 	chasing = false;
 	sprite_index = spr_RaspberryExplosion;
+	audio_play_sound(sfx_RaspberryExplosion, 3, false);
 	image_index = 1;
 	image_speed = 1;
 	dead = true;
@@ -81,8 +83,13 @@ if (charge_timer <= 0 && dead == false)
 
 if (place_meeting(x, y, obj_Blender))
 {
+	if (dead == false)
+	{
+		audio_play_sound(sfx_RaspberryExplosion, 3, false);
+	}
 	dead = true;
 	sprite_index = spr_RaspberryExplosion;
+
 }
 
 if ((dead) && (image_index >= 7))

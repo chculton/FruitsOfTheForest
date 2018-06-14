@@ -16,6 +16,7 @@ if (attacking1 == true && timer <= 0)
 	if (layer_exists("Projectiles"))
 	{
 		instance_create_layer(x, y, "Projectiles", obj_GrapeBullet);
+		audio_play_sound(sfx_Shoot, 2, false);
 	}
 	timer = 15;
 	sprite_index = spr_GrapeAttacking;
@@ -28,6 +29,7 @@ if (attacking2 == true && timer <= 0)
 	if (layer_exists("Projectiles"))
 	{
 		instance_create_layer(x, y, "Projectiles", obj_GrapeBullet2);
+		audio_play_sound(sfx_Shoot, 2, false);
 	}
 	timer = 35;
 	sprite_index = spr_GrapeAttacking;
@@ -38,9 +40,13 @@ if (place_meeting(x, y, obj_Blender))
 {
 	attacking1 = false;
 	attacking2 = false;
-	sprite_index = spr_GrapeDeath;
-	image_index = 1;
-	image_speed = 1;
+	if (dead == false)
+	{
+		sprite_index = spr_GrapeDeath;
+		audio_play_sound(sfx_DeathSound, 2, false);
+		image_index = 1;
+		image_speed = 1;
+	}
 	dead = true;
 	explosion_timer--;
 }

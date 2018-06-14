@@ -8,6 +8,7 @@ if (gamepad_button_check_pressed(1, gp_face1))
 	{
 		sprite_index = spr_Player2Jump;
 	}
+	audio_play_sound(sfx_JumpSound, 2, false);
 
 	//image_index = 1;
 }
@@ -18,6 +19,9 @@ if (gamepad_axis_value(1, gp_axislh))
 	{
 		sprite_index = spr_Player2RightRunning;
 	}
+	part_particles_create(global.particle_system, x, y + 40, global.on_walk_particle, 1);
+
+
 	
 	//image_index = 1;
 }
@@ -28,7 +32,9 @@ if (gamepad_axis_value(1, gp_axislh) <= -0.3)
 	{
 		sprite_index = spr_Player2LeftIdle;
 	}
-	
+	part_particles_create(global.particle_system, x, y + 40, global.on_walk_particle, 1);
+
+
 	//image_index = 1;
 
 }
@@ -146,6 +152,18 @@ if (place_meeting(x, y, obj_EnemyRaspberry) && (sprite_index != spr_Player2Damag
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
+	global.Player2Health--;
+	global.DecreaseHealthBarP2 = true;
+}
+
+if (place_meeting(x, y, obj_EnemyDurian) && (sprite_index != spr_Player2Damage))
+{
+	damageTimer = 15;
+	sprite_index = spr_Player2Damage;
+	image_index = 0;
+	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -156,6 +174,7 @@ if (place_meeting(x, y, obj_GrapeBullet) && (sprite_index != spr_Player2Damage))
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -166,6 +185,7 @@ if (place_meeting(x, y, obj_EnemyMango) && (sprite_index != spr_Player2Damage))
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -176,6 +196,7 @@ if (place_meeting(x, y, obj_BananaEnemy) && (sprite_index != spr_Player2Damage))
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -186,6 +207,7 @@ if (place_meeting(x, y, obj_PearAcidSpitProjectile) && (sprite_index != spr_Play
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -196,6 +218,7 @@ if (place_meeting(x, y, obj_PearVineLashVines) && (sprite_index != spr_Player2Da
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -206,6 +229,7 @@ if (place_meeting(x, y, obj_PearBossPhase2) && (sprite_index != spr_Player2Damag
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -216,6 +240,7 @@ if (place_meeting(x, y, obj_SummoningRoarFallingRock) && (sprite_index != spr_Pl
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -227,6 +252,7 @@ if (place_meeting(x, y, obj_SummoningRoarFallingRock2) && (sprite_index != spr_P
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -238,6 +264,7 @@ if (place_meeting(x, y, obj_Beam) && (sprite_index != spr_Player2Damage))
 	sprite_index = spr_Player2Damage;
 	image_index = 0;
 	damaged = true;
+	audio_play_sound(sfx_TakingDamage, 3, false);
 	global.Player2Health--;
 	global.DecreaseHealthBarP2 = true;
 }
@@ -255,7 +282,7 @@ if (damaged = true)
 
 if(global.Player2Health <= 0)
 {
-	room_restart();
+	room_goto(rm_DeathScreen);
 	global.Player2Health = 5;
 }
 

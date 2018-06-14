@@ -7,3 +7,4 @@ start = false;
 start2 = true;
 start3 = true;
 Created = false;
+sfxPlay = false;

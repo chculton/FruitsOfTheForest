@@ -22,3 +22,6 @@ jumping = false;
 jump_cooldown = 0;
 
 dead = false;
+
+audio_stop_all();
+audio_play_sound(sfx_PearKingSecondPhaseBouncing, 3, true);

@@ -67,11 +67,13 @@ if (FirstPhase == true)
 		  if (AimingPlayer = 1)
 		{
 		  instance_create_layer(obj_PhysicsPlayer.x, obj_PhysicsPlayer.y - 900, "PlayerLayer", obj_SummoningRoarIndicator);
+		  audio_play_sound(sfx_Roar, 3, false);
 		}
 		
 		 if (AimingPlayer = 2)
 		{
 		  instance_create_layer(obj_PhysicsPlayer.x, obj_PhysicsPlayer.y - 900, "PlayerLayer", obj_SummoningRoarIndicator);
+		  audio_play_sound(sfx_Roar, 3, false);
 		}
 	 }
   
@@ -108,16 +110,18 @@ if (FirstPhase == true)
 		instance_destroy(obj_PearAcidSpitBubble);  //Destroys Previous Attack
 		instance_destroy(obj_PearVineLashVines); //Destroys Previous Attack
 		instance_destroy(obj_SummoningRoarIndicator); //Destroys Previous Attack
-		global.PearHealth = 300;
+		
 	}
 
 }
 
-if ((SecondPhase == true) && place_meeting(x, y, obj_PhysicsPlayer) && place_meeting(x, y, obj_Player2) && SecondPhaseBossSpawn = false)
+if ((SecondPhase == true) && (obj_PhysicsPlayer.x > 700) && (obj_Player2.x > 700) && SecondPhaseBossSpawn = false)
 {
 	visible = false;
+	audio_play_sound(sfx_DefeatedFirstStage, 3, false);
 	instance_create_layer(obj_PearBoss.x, obj_PearBoss.y, "PlayerLayer", obj_PearBossPhase2);
 	SecondPhaseBossSpawn = true;
+	global.PearHealth = 300;
 	instance_destroy();
 	//sprite_index = spr_PearSecondPhase;
 }

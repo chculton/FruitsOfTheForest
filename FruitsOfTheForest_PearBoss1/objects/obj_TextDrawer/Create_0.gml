@@ -5,8 +5,8 @@ button_height = 15;
 button[0] = "Test Room";
 button[1] = "Level 1";
 button[2] = "Level 2";
-button[3] = "Level 3";
-button[4] = "THE PEAR KING";
+//button[3] = "Level 3";
+//button[4] = "THE PEAR KING";
 
 
 
@@ -19,3 +19,5 @@ timer = 10;
 down = 0;
 up = 0;
 Apressed = false;
+Apressed1 = false;
+Atimer = 15;

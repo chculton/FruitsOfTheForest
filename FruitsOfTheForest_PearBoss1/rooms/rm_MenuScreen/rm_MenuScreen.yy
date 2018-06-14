@@ -8,7 +8,10 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "6ac0d3c8-e598-4396-b34b-30b173a89216",
-        "86ef3fc4-83e0-4b3e-aa95-4b451828481b"
+        "86ef3fc4-83e0-4b3e-aa95-4b451828481b",
+        "dbffde70-21e3-4848-80c0-766dfced0856",
+        "c299c986-903b-4a57-aeee-82bbf06d9dae",
+        "c4878c7f-8c8e-476f-b7d6-d35e458ea6fb"
     ],
     "IsDnD": false,
     "layers": [
@@ -27,7 +30,10 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_5AA95803","id": "6ac0d3c8-e598-4396-b34b-30b173a89216","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5AA95803","objId": "a246fa8b-0dc4-4d6c-a6c6-5a96e323135d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": -1,"mvc": "1.0","x": 960,"y": 256},
-{"name": "inst_3D5F8DE7","id": "86ef3fc4-83e0-4b3e-aa95-4b451828481b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3D5F8DE7","objId": "30dc1540-e977-4517-bdfd-69216ec38645","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 800,"y": 320}
+{"name": "inst_3D5F8DE7","id": "86ef3fc4-83e0-4b3e-aa95-4b451828481b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3D5F8DE7","objId": "30dc1540-e977-4517-bdfd-69216ec38645","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 800,"y": 320},
+{"name": "inst_3AAED6A4","id": "dbffde70-21e3-4848-80c0-766dfced0856","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3AAED6A4","objId": "bb219c63-29fb-4a47-83ce-3fe22fd2f4aa","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 925,"y": 598},
+{"name": "inst_48E9672A","id": "c299c986-903b-4a57-aeee-82bbf06d9dae","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_48E9672A","objId": "1f283cd9-c46c-49f2-b90a-565c6a65dd9e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 898,"y": 735},
+{"name": "inst_38731E16","id": "c4878c7f-8c8e-476f-b7d6-d35e458ea6fb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_38731E16","objId": "4d742cd1-a3ac-48b6-abab-ebafab8f8eda","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 764,"y": 872}
             ],
             "layers": [
 
@@ -64,7 +70,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "ee68ff1d-6b5e-4798-aa5c-91f5f6eb6eac",
+            "spriteId": "5ec1f117-ba4e-4894-81b9-3af556c85415",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

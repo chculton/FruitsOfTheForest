@@ -42,6 +42,7 @@ if (attacking = true && splat == false)
 {
 	x += lengthdir_x(spd,projectile_direction);
 	y += lengthdir_y(spd,projectile_direction);
+	audio_play_sound(sfx_LungeAttack, 2, false);
 	projectile_timer--;
 }
 
@@ -49,6 +50,7 @@ if (place_meeting(x, y, obj_TopSide2))
 {
 	sprite_index = spr_BananaSplat;
 	splat = true;
+	audio_play_sound(sfx_HitGround, 2, false);
 }
 
 if (place_meeting(x, y, obj_Blender))

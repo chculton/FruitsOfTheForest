@@ -13,19 +13,23 @@ if (attacking = false && dead == false)
 
 if (inRange == true && timer <= 0) 
 {
-	instance_create_layer(x - 100, y - 50, "PlayerLayer", obj_GasCloud);
 	sprite_index = spr_DurianAttack;
+	audio_play_sound(sfx_Puff, 3, false);
 	attacking = true;
 	timer = 150;
 	
 }
 
-if (gamepad_button_check_pressed(0, gp_face2))
+if (place_meeting(x, y, obj_Blender))
 {
-	attacking = false;
-	sprite_index = spr_DurianDeath;
-	image_index = 1;
-	image_speed = 1;
+	if (dead == false)
+	{
+		attacking = false;
+		audio_play_sound(sfx_Deflate, 3, false);
+		sprite_index = spr_DurianDeath;
+		image_index = 1;
+		image_speed = 1;
+	}
 	dead = true;
 	explosion_timer--;
 }

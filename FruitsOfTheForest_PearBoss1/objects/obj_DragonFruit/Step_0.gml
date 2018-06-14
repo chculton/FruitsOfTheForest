@@ -1,4 +1,10 @@
 phy_position_x = phy_position_x + 10;
+
+if (phy_position_x >= 6230)
+{
+	phy_position_x = 6230;
+}
+	
 if (start = true)
 {
 	start = false;
@@ -17,6 +23,7 @@ if (timer <= 0)
 		start2 = false;
 	}	
 	attacking = true;
+	audio_play_sound(sfx_DragonFruitRawrXD, 3, false);
 	//attackTimer--;
 }
 
@@ -24,7 +31,11 @@ if (timer <= 0)
 //{
 	if (attacking == true)
 	{
-
+		if (sfxPlay == false)
+		{
+				audio_play_sound(sfx_Laser, 2, false);
+		}
+		sfxPlay = true;
 		instance_create_layer(x + 250, y - 40, "PlayerLayer", obj_Beam);
 	
 		if(start3 = true)
@@ -44,6 +55,7 @@ if (finishTimer <= 0 && finishing == true)
 	attacking = false;
 	finishing = false;
 	start = true;
+	sfxPlay = false;
 }
 
 timer--;
