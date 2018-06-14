@@ -16,5 +16,5 @@ if (obj_PhysicsPlayer.phy_position_y > 2160 && moved1 == true && moved2 == false
 if (obj_PhysicsPlayer.phy_position_y > 3240 && moved1 == true && moved2 == true && moved3 == false)
 {
 	y += 1080;
-	moved2 = true;
+	moved3 = true;
 }

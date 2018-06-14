@@ -14,3 +14,18 @@ if ((global.up3 == true) && (global.up4 == true))
 {
 	instance_destroy();
 }
+
+if (global.up3 == true)
+{
+	sprite_index = spr_MushWall2;
+}
+
+if (global.up4 == true)
+{
+	sprite_index = spr_MushWall2;
+}
+
+if (global.up3 == false && global.up4 == false)
+{
+	sprite_index = spr_MushWall;
+}

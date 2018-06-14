@@ -14,5 +14,6 @@ if (obj_Player2.x >= obj_PhysicsPlayer.x)
 
 if (place_meeting(x, y, obj_Blender))
 {
+	part_particles_create(global.particle_system, x - 50, y + 50, global.on_Goo_particle, 15);
 	instance_destroy();
 }

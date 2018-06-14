@@ -20,6 +20,20 @@ if (gamepad_axis_value(0, gp_axislh))
 	{
 		sprite_index = spr_Player1RightRunning;
 	}
+	if (room = rm_Level1 && jumping == false) 
+	{
+		part_particles_create(global.particle_system, x, y + 70, global.on_walk_particle, 1);
+	}
+	
+	if (room = rm_Level2 && jumping == false)
+	{
+		part_particles_create(global.particle_system, x, y + 70, global.on_rock_particle, 1);
+	}
+	
+	if (room = rm_Level3 && jumping == false)
+	{
+		part_particles_create(global.particle_system, x, y + 70, global.on_rock_particle, 1);
+	}
 	
 	//image_index = 1;
 }
@@ -29,6 +43,20 @@ if (gamepad_axis_value(0, gp_axislh) <= -0.3)
 	if (sprite_index != spr_Player1Damage)
 	{
 		sprite_index = spr_Player1LeftIdle;
+	}
+	if (room = rm_Level1 && jumping == false)
+	{
+		part_particles_create(global.particle_system, x, y + 70, global.on_walk_particle, 1);
+	}
+	
+	if (room = rm_Level2 && jumping == false)
+	{
+		part_particles_create(global.particle_system, x, y + 70, global.on_rock_particle, 1);
+	}
+	
+	if (room = rm_Level3 && jumping == false)
+	{
+		part_particles_create(global.particle_system, x, y + 70, global.on_rock_particle, 1);
 	}
 	
 	//image_index = 1;
@@ -88,31 +116,37 @@ if (jump == true && (jump_cooldown < 1))
 if ((place_meeting(x, y + 7, obj_Platform)) && (jump_cooldown > 0))
 {
 	jump_cooldown--;
+	jumping = false;
 }
 
 if ((place_meeting(x, y + 7, obj_LargePlatform)) && (jump_cooldown > 0))
 {
 	jump_cooldown--;
+	jumping = false;
 }
 
 if ((place_meeting(x, y + 7, obj_TopSide)) && (jump_cooldown > 0))
 {
 	jump_cooldown--;
+	jumping = false;
 }
 
 if ((place_meeting(x, y + 7, obj_TopSide2)) && (jump_cooldown > 0))
 {
 	jump_cooldown--;
+	jumping = false;
 }
 
 if ((place_meeting(x, y + 7, obj_TopSide3)) && (jump_cooldown > 0))
 {
 	jump_cooldown--;
+	jumping = false;
 }
 
 if ((place_meeting(x, y + 7, obj_TopSide4)) && (jump_cooldown > 0))
 {
 	jump_cooldown--;
+	jumping = false;
 }
 
 if (Player1Health <= 0)

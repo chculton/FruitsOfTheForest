@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "0b729017-072c-40f4-a04a-7e3381834ba0",
+            "Value": {
+                "id": "e3a09318-e4ca-485c-be24-59ee832b6ae6",
+                "resourcePath": "sprites\\spr_DragonGoo\\spr_DragonGoo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0be511f5-3a8d-490a-8553-5cdc336085c5",
             "Value": {
                 "id": "3d0ff6dd-caa1-4af2-a80f-591236e74291",
@@ -562,7 +570,7 @@
             "Key": "21b30369-a694-45bd-a063-358a71c2249d",
             "Value": {
                 "id": "341904d7-6f31-4a9c-8c34-40ff93c19c5f",
-                "resourcePath": "sprites\\sprgrass\\sprgrass.yy",
+                "resourcePath": "sprites\\spr_grass\\spr_grass.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -779,6 +787,14 @@
             "Value": {
                 "id": "4475cbfe-cd56-496d-8460-b549180c0453",
                 "resourcePath": "objects\\obj_Level2Music\\obj_Level2Music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2f0337ae-ce80-44e6-822c-236b0ab8dda6",
+            "Value": {
+                "id": "16febfa7-847e-409e-a713-f7c9776815de",
+                "resourcePath": "objects\\obj_PointyBush\\obj_PointyBush.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1151,6 +1167,14 @@
             }
         },
         {
+            "Key": "481c6da8-0ea6-405d-93ec-f5f8f7b75697",
+            "Value": {
+                "id": "de56cd30-21b6-4fad-af11-612a666a8d69",
+                "resourcePath": "objects\\obj_Bush\\obj_Bush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a11811f-2ef0-46ac-a429-8767b8aaf3af",
             "Value": {
                 "id": "82bbc44c-b7f8-4903-b13d-39cd1158ed50",
@@ -1340,6 +1364,14 @@
                 "id": "dfbdf9ea-5e08-4056-9483-501c803b8d6d",
                 "resourcePath": "sounds\\sfx_RockBreak\\sfx_RockBreak.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5624eb94-00ea-4103-ac5d-ad73c5f21691",
+            "Value": {
+                "id": "4b31124c-b4f3-4a69-b56d-07d2154ae173",
+                "resourcePath": "sprites\\spr_PearTears\\spr_PearTears.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1731,6 +1763,14 @@
             "Value": {
                 "id": "2f33974d-a995-4696-a1da-14d7bf037b5b",
                 "resourcePath": "sprites\\spr_BottomMiddle3\\spr_BottomMiddle3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "718feed5-3b21-4520-95e6-459318add4f5",
+            "Value": {
+                "id": "7a3b3a79-29b6-4c05-8095-6e173fff5210",
+                "resourcePath": "sprites\\spr_Rock\\spr_Rock.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3447,6 +3487,14 @@
             }
         },
         {
+            "Key": "ef7d11a7-10b5-4a7f-abe2-554da779a5e5",
+            "Value": {
+                "id": "375e4a56-1533-4e38-afbb-b03471ee72bb",
+                "resourcePath": "rooms\\rm_Credits\\rm_Credits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ef97232f-61a4-4cfa-97ce-598505d62497",
             "Value": {
                 "id": "8e1bd19f-9947-418f-9c0f-fdf984f0b9e1",
@@ -3548,6 +3596,14 @@
                 "id": "ec6151ce-0abe-4f00-932f-777be52a5dd0",
                 "resourcePath": "objects\\obj_StrawberryShortCut\\obj_StrawberryShortCut.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f8e6249c-d79e-4302-a1bb-3192720e211f",
+            "Value": {
+                "id": "912cbc92-c5ae-488f-b390-7c56849d876d",
+                "resourcePath": "sprites\\spr_MushWall2\\spr_MushWall2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
