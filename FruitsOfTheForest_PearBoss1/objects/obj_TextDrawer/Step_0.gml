@@ -46,15 +46,15 @@ if (Apressed == true)
 	room_goto(rm_TestRoom)
 
 	if menu_index = 1
-	room_goto(rm_Level1)
+	room_goto(rm_Level1IntroScreen)
 
 	if menu_index = 2
-	room_goto(rm_Level2)
+	room_goto(rm_Level2IntroScreen)
 
 	if menu_index = 3
-	room_goto(rm_Level3)
+	room_goto(rm_Level3IntroScreen)
 
 	if menu_index = 4
-	room_goto(rm_PearKingTest)
+	room_goto(rm_PearBossIntroScreen)
 
 }
