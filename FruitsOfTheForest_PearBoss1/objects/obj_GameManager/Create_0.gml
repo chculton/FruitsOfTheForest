@@ -60,6 +60,18 @@ part_type_speed(global.on_Goo_particle, 5, 7, 0, 0.25);
 part_type_direction(global.on_Goo_particle, 0, 360, 0, 10); 
 part_type_life(global.on_Goo_particle, 50, 80); 
 
+//Player Blocking the Dragon Goo
+global.on_GreenGoo_particle = part_type_create(); 
+part_type_shape(global.on_GreenGoo_particle, pt_shape_square); 
+part_type_sprite(global.on_GreenGoo_particle, spr_grass, 1, 0, 0); 
+part_type_orientation(global.on_GreenGoo_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_GreenGoo_particle, 5, 7, 0, 0.2); 
+part_type_alpha3(global.on_GreenGoo_particle, 0.5, 1, 0); 
+part_type_speed(global.on_GreenGoo_particle, 5, 7, 0, 0.25); 
+part_type_direction(global.on_GreenGoo_particle, 0, 360, 0, 10); 
+part_type_life(global.on_GreenGoo_particle, 50, 80); 
+
+
 //Player hitting Pear Eye
 global.on_PearTear_particle = part_type_create(); 
 part_type_shape(global.on_PearTear_particle, pt_shape_square); 

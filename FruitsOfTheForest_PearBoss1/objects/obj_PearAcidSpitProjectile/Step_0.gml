@@ -12,6 +12,11 @@ if (obj_Player2.x >= obj_PhysicsPlayer.x)
 	image_angle = projectile_direction2;
 }
 	
+if (place_meeting(x, y, obj_Blender))
+{
+	part_particles_create(global.particle_system, x - 50, y + 50, global.on_GreenGoo_particle, 15);
+	instance_destroy();
+}
 
 
 //phy_position_x -= spd;
