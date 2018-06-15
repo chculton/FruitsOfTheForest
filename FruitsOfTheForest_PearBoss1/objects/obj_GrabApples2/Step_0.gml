@@ -117,7 +117,7 @@ if ((obj_Player2.x > obj_GrabApplePlatfom3.x - 64) && (obj_Player2.x < obj_GrabA
 	}
 }
 
-if ((obj_Player2.x < obj_GrabApplePlatfom.x - 64) || (obj_Player2.x > obj_GrabApplePlatfom.x + 64) || (obj_PhysicsPlayer.x < obj_GrabApplePlatfom.x - 64) || (obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x + 64) && instance_exists(objGrabAppleToolTip))
+/*if ((obj_Player2.x < obj_GrabApplePlatfom.x - 64) || (obj_Player2.x > obj_GrabApplePlatfom.x + 64) || (obj_PhysicsPlayer.x < obj_GrabApplePlatfom.x - 64) || (obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x + 64) && instance_exists(objGrabAppleToolTip))
 {
 	instance_destroy(objGrabAppleToolTip);
-}
+}*/

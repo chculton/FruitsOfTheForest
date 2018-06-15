@@ -49,6 +49,18 @@ part_type_speed(global.on_rock_particle, 1, 2, 0, 0.25);
 part_type_direction(global.on_rock_particle, 0, 360, 0, 10); 
 part_type_life(global.on_rock_particle, 30, 60); 
 
+
+//Boss Rock
+global.on_Bossrock_particle = part_type_create(); 
+part_type_shape(global.on_Bossrock_particle, pt_shape_square); 
+part_type_sprite(global.on_Bossrock_particle, spr_Rock, 1, 0, 0); 
+part_type_orientation(global.on_Bossrock_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_Bossrock_particle, 5, 7, 0, 0.2); 
+part_type_alpha3(global.on_Bossrock_particle, 0.5, 1, 0); 
+part_type_speed(global.on_Bossrock_particle, 5, 7, 0, 0.25); 
+part_type_direction(global.on_Bossrock_particle, 0, 360, 0, 10); 
+part_type_life(global.on_Bossrock_particle, 30, 60);
+
 //Player Blocking the Dragon Goo
 global.on_Goo_particle = part_type_create(); 
 part_type_shape(global.on_Goo_particle, pt_shape_square); 

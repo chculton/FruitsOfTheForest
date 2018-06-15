@@ -1,5 +1,5 @@
 {
-    "id": "4d742cd1-a3ac-48b6-abab-ebafab8f8eda",
+    "id": "03a586ae-be84-486c-9062-b95ff8c3b8d5",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "MenuText3",
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8d0e81e1-ebc3-4cfd-9de2-b3e106a42730",
+    "spriteId": "57f73a12-016c-45e8-8abd-44532ead569d",
     "visible": true
 }

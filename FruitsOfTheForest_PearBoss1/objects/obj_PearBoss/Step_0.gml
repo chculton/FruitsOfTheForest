@@ -99,7 +99,7 @@ if (FirstPhase == true)
 	}
 
 
-	if (global.PearHealth <= 0)
+	if (global.PearHealth <= 0 or (LooseLife == true))
 	{
 		sprite_index = spr_PearFirstPhaseDeath;
 		FirstPhase = false;

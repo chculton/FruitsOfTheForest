@@ -20,7 +20,13 @@
         "36ed05b0-124e-450a-b578-bcfd8a8f7e32",
         "57b64e33-2db8-4b07-8948-527283299eca",
         "a000c4e1-22aa-4333-af88-e6d8587db8e0",
-        "27622ef7-7cb2-4e5a-9acb-d6a9e68a25f1"
+        "27622ef7-7cb2-4e5a-9acb-d6a9e68a25f1",
+        "01f953de-82b5-420b-b752-91dd0fecd09f",
+        "4f8e950a-1e26-4101-adc0-0135f72ba122",
+        "f974913c-3b59-4b9d-843f-6549203129cf",
+        "3bece676-b7b4-408b-b1d7-276b36067cc7",
+        "045f2d6a-2905-40bc-b8a8-9594385a9f24",
+        "ad4f882c-e7af-4aa6-a2e0-c1ff33f44051"
     ],
     "filterType": "GMSprite",
     "folderName": "group_PearBoss",

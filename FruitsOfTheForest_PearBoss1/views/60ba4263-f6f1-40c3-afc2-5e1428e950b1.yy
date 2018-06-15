@@ -7,7 +7,8 @@
         "5ec1f117-ba4e-4894-81b9-3af556c85415",
         "329afd44-c8c0-4241-9275-33f457472f53",
         "57f73a12-016c-45e8-8abd-44532ead569d",
-        "8d0e81e1-ebc3-4cfd-9de2-b3e106a42730"
+        "8d0e81e1-ebc3-4cfd-9de2-b3e106a42730",
+        "1186a7bc-ff96-407d-a369-0cbccef18940"
     ],
     "filterType": "GMSprite",
     "folderName": "MenuScreen",

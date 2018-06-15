@@ -1,6 +1,7 @@
 if (timer <= 0) 
 {
   summoning_rock = irandom_range(1,2);
+  //instance_create_layer(obj_Player2.x, y, "PlayerLayer", obj_SummoningRoarFallingRock);
   if (obj_PhysicsPlayer.x >= obj_Player2.x)
 	{
 	

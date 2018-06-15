@@ -3,8 +3,9 @@ menu_y = y;
 button_height = 15;
 
 button[0] = "Test Room";
-button[1] = "Level 1";
+button[1] = "Controls";
 button[2] = "Level 2";
+button[3] = "Are you Leafing?";
 //button[3] = "Level 3";
 //button[4] = "THE PEAR KING";
 
