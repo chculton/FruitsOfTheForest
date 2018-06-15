@@ -24,3 +24,5 @@ physics_world_gravity(0, 100);
 
 global.Player1Health = 5;
 global.player1Holding = false;
+
+global.level = rm_MenuScreen;

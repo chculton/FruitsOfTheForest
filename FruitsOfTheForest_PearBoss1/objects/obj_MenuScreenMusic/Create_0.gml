@@ -1,2 +1,1 @@
-audio_stop_all();
-audio_play_sound(bgm_MainTheme, 1, true);
+global.audioPlay = false;

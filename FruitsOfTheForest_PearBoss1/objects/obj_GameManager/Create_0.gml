@@ -49,7 +49,6 @@ part_type_speed(global.on_rock_particle, 1, 2, 0, 0.25);
 part_type_direction(global.on_rock_particle, 0, 360, 0, 10); 
 part_type_life(global.on_rock_particle, 30, 60); 
 
-
 //Boss Rock
 global.on_Bossrock_particle = part_type_create(); 
 part_type_shape(global.on_Bossrock_particle, pt_shape_square); 
@@ -204,3 +203,66 @@ part_type_alpha3(global.on_Point4_particle, 0.5, 1, 0);
 part_type_speed(global.on_Point4_particle, 1, 2, 0, 0.25); 
 part_type_direction(global.on_Point4_particle, 0, 360, 0, 10); 
 part_type_life(global.on_Point4_particle, 30, 60); 
+
+//Player Destroying Old Tree
+
+global.on_OldTree1_particle = part_type_create(); 
+part_type_shape(global.on_OldTree1_particle, pt_shape_square); 
+part_type_sprite(global.on_OldTree1_particle, spr_Particle_OldTree1, 1, 0, 0); 
+part_type_orientation(global.on_OldTree1_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_OldTree1_particle, 0.5, 1, 0, 0.2); 
+part_type_alpha3(global.on_OldTree1_particle, 0.5, 1, 0); 
+part_type_speed(global.on_OldTree1_particle, 1, 2, 0, 0.25); 
+part_type_direction(global.on_OldTree1_particle, 0, 360, 0, 10); 
+part_type_life(global.on_OldTree1_particle, 30, 60); 
+
+global.on_OldTree2_particle = part_type_create(); 
+part_type_shape(global.on_OldTree2_particle, pt_shape_square); 
+part_type_sprite(global.on_OldTree2_particle, spr_Particle_OldTree2, 1, 0, 0); 
+part_type_orientation(global.on_OldTree2_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_OldTree2_particle, 0.5, 1, 0, 0.2); 
+part_type_alpha3(global.on_OldTree2_particle, 0.5, 1, 0); 
+part_type_speed(global.on_OldTree2_particle, 1, 2, 0, 0.25); 
+part_type_direction(global.on_OldTree2_particle, 0, 360, 0, 10); 
+part_type_life(global.on_OldTree2_particle, 30, 60); 
+
+global.on_OldTree3_particle = part_type_create(); 
+part_type_shape(global.on_OldTree3_particle, pt_shape_square); 
+part_type_sprite(global.on_OldTree3_particle, spr_Particle_OldTree3, 1, 0, 0); 
+part_type_orientation(global.on_OldTree3_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_OldTree3_particle, 0.5, 1, 0, 0.2); 
+part_type_alpha3(global.on_OldTree3_particle, 0.5, 1, 0); 
+part_type_speed(global.on_OldTree3_particle, 1, 2, 0, 0.25); 
+part_type_direction(global.on_OldTree3_particle, 0, 360, 0, 10); 
+part_type_life(global.on_OldTree3_particle, 30, 60); 
+
+//For Rock
+global.on_Rock1_particle = part_type_create(); 
+part_type_shape(global.on_Rock1_particle, pt_shape_square); 
+part_type_sprite(global.on_Rock1_particle, spr_Particle_Rock1, 1, 0, 0); 
+part_type_orientation(global.on_Rock1_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_Rock1_particle, 0.5, 1, 0, 0.2); 
+part_type_alpha3(global.on_Rock1_particle, 0.5, 1, 0); 
+part_type_speed(global.on_Rock1_particle, 1, 2, 0, 0.25); 
+part_type_direction(global.on_Rock1_particle, 0, 360, 0, 10); 
+part_type_life(global.on_Rock1_particle, 30, 60); 
+
+global.on_Rock2_particle = part_type_create(); 
+part_type_shape(global.on_Rock2_particle, pt_shape_square); 
+part_type_sprite(global.on_Rock2_particle, spr_Particle_Rock2, 1, 0, 0); 
+part_type_orientation(global.on_Rock2_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_Rock2_particle, 0.5, 1, 0, 0.2); 
+part_type_alpha3(global.on_Rock2_particle, 0.5, 1, 0); 
+part_type_speed(global.on_Rock2_particle, 1, 2, 0, 0.25); 
+part_type_direction(global.on_Rock2_particle, 0, 360, 0, 10); 
+part_type_life(global.on_Rock2_particle, 30, 60); 
+
+global.on_Rock3_particle = part_type_create(); 
+part_type_shape(global.on_Rock3_particle, pt_shape_square); 
+part_type_sprite(global.on_Rock3_particle, spr_Particle_Rock3, 1, 0, 0); 
+part_type_orientation(global.on_Rock3_particle, 0, 360, 5, 0, 1); 
+part_type_size(global.on_Rock3_particle, 0.5, 1, 0, 0.2); 
+part_type_alpha3(global.on_Rock3_particle, 0.5, 1, 0); 
+part_type_speed(global.on_Rock3_particle, 1, 2, 0, 0.25); 
+part_type_direction(global.on_Rock3_particle, 0, 360, 0, 10); 
+part_type_life(global.on_Rock3_particle, 30, 60); 

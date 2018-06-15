@@ -1,6 +1,33 @@
 phy_rotation = 0;
 phy_fixed_rotation = true;
 
+if (room = rm_Level1)
+{
+	global.level = rm_Level1IntroScreen;
+}
+
+if (room = rm_Level2)
+{
+	global.level = rm_Level2IntroScreen;
+}
+
+if (room = rm_Level3)
+{
+	global.level = rm_Level3IntroScreen;
+}
+
+if (room = rm_PearKingTest)
+{
+	global.level = rm_PearBossIntroScreen;
+}
+
+
+
+
+
+
+
+
 if (gamepad_button_check_pressed(0, gp_face1))
 {
 	jump = true;

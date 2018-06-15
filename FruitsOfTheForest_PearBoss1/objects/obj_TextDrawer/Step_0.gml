@@ -67,10 +67,10 @@ if (Apressed == true)
 	room_goto(rm_Level1IntroScreen)
 
 	if menu_index = 1
-	room_goto(rm_Level2IntroScreen)
+	room_goto(rm_Controls)
 
 	if menu_index = 2
-	room_goto(rm_Level3IntroScreen)
+	room_goto(rm_Credits)
 	
 	if menu_index = 3
 	{

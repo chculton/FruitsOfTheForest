@@ -136,24 +136,6 @@ if (destroyTimer <= 0)
 destroyTimer --;
 
 
-if ((obj_PhysicsPlayer.x > obj_StrawberryPlatform.x - 100) && (obj_PhysicsPlayer.x < obj_StrawberryPlatform.x + 100))
-{
-	
-	if(!instance_exists(objGrabAppleToolTip))
-	{
-		instance_create_layer(obj_StrawberryPlatform.x - 40, obj_StrawberryPlatform.y - 250, "PlayerLayer", objGrabAppleToolTip);
-	}
-}
-
-if ((obj_Player2.x > obj_StrawberryPlatform.x - 100) && (obj_Player2.x < obj_StrawberryPlatform.x + 100))
-{
-	
-	if(!instance_exists(objGrabAppleToolTip))
-	{
-		instance_create_layer(obj_StrawberryPlatform.x - 40, obj_StrawberryPlatform.y - 250, "PlayerLayer", objGrabAppleToolTip);
-	}	
-}
-
 /*if ((obj_PhysicsPlayer.x > obj_StrawberryPlatform.x - 100) && (obj_PhysicsPlayer.x < obj_StrawberryPlatform.x + 100))
 {
 	

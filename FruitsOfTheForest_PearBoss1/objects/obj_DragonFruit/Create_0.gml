@@ -8,3 +8,6 @@ start2 = true;
 start3 = true;
 Created = false;
 sfxPlay = false;
+
+
+audio_sound_gain(sfx_DragonFruitRawrXD, 50, 1000);

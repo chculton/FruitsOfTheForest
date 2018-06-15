@@ -1,14 +1,14 @@
-if ((obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x - 200) && (obj_PhysicsPlayer.x < obj_GrabApplePlatfom.x + 200))
+if ((place_meeting(obj_GrabApplePlatfom.x, obj_GrabApplePlatfom.y, obj_PhysicsPlayer)))
 {
-	//if(!instance_exists(objGrabAppleToolTip))
-//	{
-show_debug_message("player 1 is here");
-		instance_create_layer(obj_GrabApples.x, obj_GrabApples.y + 100, "PlayerLayer", objGrabAppleToolTip);
-	//}
+	if(instance_exists(obj_GrabAppleToolTip))
+	{
+		show_debug_message("player 1 is here");
+		obj_GrabAppleToolTip.visible = true;
+	}
 	
 	if (gamepad_button_check(0, gp_face2) && (global.player1Holding == true))
 	{
-		global.GrabApples1 = true;
+		
 		if (blenderTimer >= 20)
 		{
 			with (obj_Blender)
@@ -54,26 +54,18 @@ show_debug_message("player 1 is here");
 				obj_Blender.phy_position_y = (obj_PhysicsPlayer.phy_position_y);	
 				
 			blenderTimer = 30; 
-			global.GrabApples1 = false;
+			
 			//global.player1Holding = false;
 		}
 	}
 }
-/*else if ((obj_PhysicsPlayer.x < obj_GrabApplePlatfom.x - 64) && (obj_PhysicsPlayer.x > obj_GrabApplePlatfom.x + 64) && instance_exists(objGrabAppleToolTip))
-{
-	instance_destroy(objGrabAppleToolTip);
-}*/
 
-if ((obj_Player2.x > obj_GrabApplePlatfom.x - 200) && (obj_Player2.x < obj_GrabApplePlatfom.x + 200))
+if ((place_meeting(obj_GrabApplePlatfom.x, obj_GrabApplePlatfom.y, obj_Player2)))
 {
-	//if(!instance_exists(objGrabAppleToolTip))
-	//{
-	show_debug_message("player 2 is here");
-		instance_create_layer(obj_GrabApples.x, obj_GrabApples.y + 100, "PlayerLayer", objGrabAppleToolTip);
-	//}
+	
 	if (gamepad_button_check(1, gp_face2) && (global.player2Holding == true))
 	{
-		global.GrabApples2 = true;
+		
 		if (blenderTimer >= 20)
 		{
 			with (obj_Blender)
@@ -119,7 +111,7 @@ if ((obj_Player2.x > obj_GrabApplePlatfom.x - 200) && (obj_Player2.x < obj_GrabA
 				obj_Blender.phy_position_y = (obj_Player2.phy_position_y);	
 				
 			blenderTimer = 30; 
-			global.GrabApples2 = false;
+		
 			//global.player2Holding = false;
 		}
 	}

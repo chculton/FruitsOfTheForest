@@ -16,5 +16,5 @@ posy = y;
 left_posx = 50;
 left_posy = 0;
 
-right_posx = -10;
+right_posx = -75;
 right_posy = 0;

@@ -9,13 +9,13 @@ if ((x - obj_Player2.x) < sensoryRange)
 }
 
 //sprite_index = spr_MangoBounce;
-if (attacking == false)
+if (attacking == false && dead == false)
 {
 	sprite_index = spr_MangoBounce;
 	if (timer <= 0 && (jump_cooldown < 1))
 	{
 		physics_apply_impulse(x, y, 0, -jmp);
-		audio_play_sound(sfx_MangoBounce, 3, false);
+		//dio_play_sound(sfx_MangoBounce, 3, false);
 		jump_cooldown++;
 		jumping = true;
 		timer = 10
@@ -56,9 +56,14 @@ if ((inRange == true) && (attacking == false) && (dead == false))
 
 if (place_meeting(x, y, obj_Blender) && dead == false)
 {
+	if (dead == false)
+	{
+		sprite_index = spr_MangoDeath;
+		audio_play_sound(sfx_DeathSound, 3, false);
+		image_index = 1;
+		image_speed = 1;
+	}
 	dead = true;
-	sprite_index = spr_MangoDeath;
-	audio_play_sound(sfx_DeathSound, 3, false);
 }
 
 if ((dead) && (image_index >= 12))

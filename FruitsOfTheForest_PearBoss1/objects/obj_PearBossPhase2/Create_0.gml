@@ -8,6 +8,8 @@ instance_create_layer(obj_PearBossPhase2.x, obj_PearBossPhase2.y + 100, "PlayerL
 instance_create_layer(obj_PearBossPhase2.x + 165, obj_PearBossPhase2.y + 100, "PlayerLayer", obj_PearRootThree);
 instance_create_layer(obj_PearBossPhase2.x, obj_PearBossPhase2.y, "PlayerLayer", obj_HitBox);
 
+
+
 inRange = false;
 attacking = false;
 

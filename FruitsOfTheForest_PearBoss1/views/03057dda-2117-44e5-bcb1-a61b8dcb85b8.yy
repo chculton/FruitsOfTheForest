@@ -11,7 +11,8 @@
         "1f2f1b90-24c0-4438-a019-b4f6403a1771",
         "9967dfd2-6306-4865-bfc7-4503d7d5f3ad",
         "44bb1383-c0d1-430c-8aaa-2b0773aef7d4",
-        "acaa5517-5c52-45d4-a58a-2fd63b367f7a"
+        "acaa5517-5c52-45d4-a58a-2fd63b367f7a",
+        "a94f79e5-7ec0-428f-be13-7f1256f79ddf"
     ],
     "filterType": "GMSprite",
     "folderName": "group_Level1",

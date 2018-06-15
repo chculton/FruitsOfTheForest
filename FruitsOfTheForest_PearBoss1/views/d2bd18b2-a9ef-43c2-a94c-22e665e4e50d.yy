@@ -12,7 +12,8 @@
         "cb4d99d8-8ccc-46c6-bc3a-333396e9b610",
         "782196a8-0ea8-45fb-a5ef-f69ffba2ee7b",
         "736ae6c5-2a2f-4920-a076-99a0c4a0e3b5",
-        "13352500-d38b-4e35-a473-96a8eebd76d9"
+        "13352500-d38b-4e35-a473-96a8eebd76d9",
+        "9fc85cf2-407d-4abb-8adf-0cf487620ad5"
     ],
     "filterType": "GMSprite",
     "folderName": "group_BossCave",

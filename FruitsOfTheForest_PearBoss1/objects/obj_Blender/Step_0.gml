@@ -52,6 +52,7 @@ if (HeldByPlayer1 == true)
 			/*xvec = lengthdir_x(spd,projectile_direction);
 			yvec = lengthdir_y(spd,projectile_direction);*/
 			physics_apply_impulse(phy_position_x, phy_position_y, xvec * 1000, yvec * 1000);
+			audio_play_sound(sfx_BlenderThrow, 4, false);
 			//phy_position_x += 100;
 			//phy_position_y += -100;
 			HasBeenThrown = true;
@@ -100,6 +101,7 @@ if (HeldByPlayer2 == true)
 			/*xvec = lengthdir_x(spd,projectile_direction);
 			yvec = lengthdir_y(spd,projectile_direction);*/
 		physics_apply_impulse(phy_position_x, phy_position_y, xvec * 1000, yvec * 1000);
+		audio_play_sound(sfx_BlenderThrow, 4, false);
 			//phy_position_x += 100;
 			//phy_position_y += -100;
 		HasBeenThrown = true;

@@ -6,7 +6,8 @@
     "children": [
         "41a9a074-83c5-401b-8f5e-8ec15e58f449",
         "e4858712-da83-4d7e-b9d6-f10194adeb6f",
-        "20283074-65d0-4f3e-85c0-2c40ba7613eb"
+        "20283074-65d0-4f3e-85c0-2c40ba7613eb",
+        "052ec7fb-6a19-4d00-bd28-9c876dc4f505"
     ],
     "filterType": "GMSprite",
     "folderName": "DragonFruit",

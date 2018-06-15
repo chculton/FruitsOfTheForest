@@ -49,8 +49,12 @@ if (attacking = true && splat == false)
 if (place_meeting(x, y, obj_TopSide2))
 {
 	sprite_index = spr_BananaSplat;
+	if (splat == false)
+	{
+		audio_play_sound(sfx_HitGround, 2, false);
+	}
 	splat = true;
-	audio_play_sound(sfx_HitGround, 2, false);
+
 }
 
 if (place_meeting(x, y, obj_Blender))

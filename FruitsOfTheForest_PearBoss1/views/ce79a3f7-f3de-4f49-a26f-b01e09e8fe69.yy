@@ -12,7 +12,8 @@
         "adc8caa0-fd1f-4ba9-b9fe-15db2558a436",
         "53232314-feb3-43d4-be13-c8cdcbf31028",
         "b4ffec29-a00d-4395-9ca9-6badb4c8b603",
-        "f8e6249c-d79e-4302-a1bb-3192720e211f"
+        "f8e6249c-d79e-4302-a1bb-3192720e211f",
+        "a1dcf346-6b29-4bda-88ee-48bee29e3984"
     ],
     "filterType": "GMSprite",
     "folderName": "Interactables",

@@ -10,7 +10,8 @@
         "79a26a44-018f-45e1-98b6-ae56cd75f473",
         "777d85b9-8f85-4315-a8b8-1fddefffbe4b",
         "ce79a3f7-f3de-4f49-a26f-b01e09e8fe69",
-        "d0df326b-d266-41ad-b611-737d32f24941"
+        "d0df326b-d266-41ad-b611-737d32f24941",
+        "33503d7e-04f5-49ee-92db-2480536cdc07"
     ],
     "filterType": "GMSprite",
     "folderName": "group_Terrain",

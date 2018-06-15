@@ -14,7 +14,10 @@
         "0bfd7de2-d2b9-4497-803b-ff0d1adf25d9",
         "e8a1f385-df42-4cdf-b74f-a5ba2eb9f945",
         "1389697f-9e00-4d31-b8c3-ba485f576496",
-        "64ab4e84-9dcb-4aa6-9315-125ba759b971"
+        "64ab4e84-9dcb-4aa6-9315-125ba759b971",
+        "d29e4b18-652b-4ddb-b7a1-071fd7da729a",
+        "49a9bb3b-9f3e-4631-ad29-8def6ee88866",
+        "4e0fc7cd-16a0-412b-891b-59a372817e20"
     ],
     "filterType": "GMObject",
     "folderName": "GrabApples",
